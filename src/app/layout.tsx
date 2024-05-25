@@ -1,9 +1,12 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 import '@/styles/globals.css';
 import Navbar from '@/components/navigation/navbar';
 
-const inter = Inter({ subsets: ['latin'] });
+const poppins = Poppins({
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
 	title: 'RPH Website',
@@ -17,9 +20,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className="">
-			<body className={inter.className}>
+			<body className={poppins.className}>
 				<Navbar />
-				{children}
+				<main className="">{children}</main>
 			</body>
 		</html>
 	);
