@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<header
 			className={cn(
-				'sticky top-0 w-screen z-50 border-b-[1px] border-gray-200'
+				'sticky top-0 w-screen z-50 border-b-[1px] border-gray-200 bg-background'
 			)}
 		>
 			<nav
