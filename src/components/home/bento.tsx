@@ -1,32 +1,31 @@
+'use client';
+
 import { screenBreakpoints } from '@/helpers/screen-breakpoints';
 import { cn } from '@/lib/utils';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
-import React from 'react';
+import React, { useRef } from 'react';
 
 const Bento = () => {
+	const targetRef = useRef(null);
+
+	const { scrollYProgress } = useScroll({
+		target: targetRef,
+		offset: ['start 75%', 'start 20%'],
+	});
+
+	const opacity = useTransform(scrollYProgress, [0, 1], [1, 0.4]);
+
 	return (
-		<section
+		<motion.section
+			ref={targetRef}
 			className={cn(
-				'flex flex-col items-center mx-auto w-full px-6',
+				'relative flex flex-col items-center mx-auto w-full px-6 pt-[150px]',
 				screenBreakpoints
 			)}
 		>
-			<div className="flex flex-col items-center relative w-[175px] h-[200px] mb-12">
-				<div className="absolute inset-0 ">
-					<Image
-						src="/home/catanduanes-official-seal.png"
-						fill
-						alt="Catanduanes Official Seal"
-						style={{
-							objectFit: 'contain',
-							objectPosition: 'center',
-						}}
-					/>
-				</div>
-				<div className="absolute bottom-0 w-full pt-[50px] flex justify-center bg-gradient-to-t from-background  to-transparent">
-					<h2 className="text-4xl font-semibold">Discover</h2>
-				</div>
-			</div>
+			{/* <div className="absolute top-0 w-full h-[20px] bg-red-700"></div> */}
+			<BentoHeader />
 			<div>
 				<p className="text-center">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -135,7 +134,36 @@ const Bento = () => {
 					metus venenatis vehicula.
 				</p>
 			</div>
-		</section>
+		</motion.section>
+	);
+};
+
+const BentoHeader = () => {
+	return (
+		<div className="flex flex-col items-center relative w-[175px] h-[200px] mb-12">
+			<motion.div
+				className="absolute inset-0 "
+				initial={{ y: 100 }}
+				whileInView={{ y: 0 }}
+			>
+				<Image
+					src="/home/catanduanes-official-seal.png"
+					fill
+					alt="Catanduanes Official Seal"
+					style={{
+						objectFit: 'contain',
+						objectPosition: 'center',
+					}}
+				/>
+			</motion.div>
+			<motion.div
+				className="absolute bottom-0 w-full pt-[50px] flex justify-center bg-gradient-to-t from-background  to-transparent"
+				initial={{ y: 100 }}
+				whileInView={{ y: 0 }}
+			>
+				<h2 className="text-4xl font-semibold">Discover</h2>
+			</motion.div>
+		</div>
 	);
 };
 
