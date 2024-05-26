@@ -4,14 +4,18 @@ import { screenBreakpoints } from '@/helpers/screen-breakpoints';
 import { cn } from '@/lib/utils';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useRef } from 'react';
 
 const bentoGridVariants = {
 	hidden: {
-		y: 50,
+		y: 40,
 	},
 	visible: {
 		y: 0,
+	},
+	hover: {
+		scale: 1.02,
 	},
 };
 
@@ -19,47 +23,100 @@ const Bento = () => {
 	return (
 		<section
 			className={cn(
-				'relative flex flex-col items-center mx-auto w-full px-6 pt-[150px]',
+				'relative flex flex-col items-center mx-auto w-full px-6 py-[150px]',
 				screenBreakpoints
 			)}
 		>
 			<BentoHeader />
-			<div className="w-full h-[500px] grid grid-cols-10 grid-rows-2 gap-4">
+			<div className="w-full h-[500px] grid grid-cols-10 grid-rows-2 gap-4 text-background">
 				<motion.div
-					className="bg-yellow-500 col-span-6 rounded-xl"
+					className="relative
+					e bg-yellow-primary col-span-6 rounded-xl"
 					variants={bentoGridVariants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ type: 'spring', stiffness: 75, delay: 0.05 }}
+					whileHover="hover"
+					transition={{
+						type: 'spring',
+						ease: 'linear',
+						stiffness: 75,
+						y: { delay: 0.05 },
+					}}
 				>
-					a
+					<Link
+						href="/festivals"
+						className="absolute inset-0 flex flex-col justify-center items-center"
+					>
+						<div className="">
+							<p className="">Festivals</p>
+						</div>
+					</Link>
 				</motion.div>
 				<motion.div
-					className="bg-red-500 col-span-4 rounded-xl"
+					className="relative bg-red-primary col-span-4 rounded-xl"
 					variants={bentoGridVariants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ type: 'spring', stiffness: 75, delay: 0.15 }}
+					whileHover="hover"
+					transition={{
+						type: 'spring',
+						ease: 'linear',
+						stiffness: 75,
+						y: { delay: 0.15 },
+					}}
 				>
-					b
+					<Link
+						href="/falk-tales"
+						className="absolute inset-0 flex flex-col justify-center items-center"
+					>
+						<div className="">
+							<p className="">Falk Tales</p>
+						</div>
+					</Link>
 				</motion.div>
 				<motion.div
-					className="bg-blue-500 col-span-4 rounded-xl"
+					className="relative bg-blue-primary col-span-4 rounded-xl"
 					variants={bentoGridVariants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ type: 'spring', stiffness: 75, delay: 0.25 }}
+					whileHover="hover"
+					transition={{
+						type: 'spring',
+						ease: 'linear',
+						stiffness: 75,
+						y: { delay: 0.25 },
+					}}
 				>
-					c
+					<Link
+						href="/tourist-places"
+						className="absolute inset-0 flex flex-col justify-center items-center"
+					>
+						<div className="">
+							<p className="">Tourist Places</p>
+						</div>
+					</Link>
 				</motion.div>
 				<motion.div
-					className="bg-green-500 col-span-6 rounded-xl"
+					className="relative bg-green-primary col-span-6 rounded-xl"
 					variants={bentoGridVariants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ type: 'spring', stiffness: 75, delay: 0.35 }}
+					whileHover="hover"
+					transition={{
+						type: 'spring',
+						ease: 'linear',
+						stiffness: 75,
+						y: { delay: 0.35 },
+					}}
 				>
-					d
+					<Link
+						href="/section"
+						className="absolute inset-0 flex flex-col justify-center items-center"
+					>
+						<div className="">
+							<p className="">Add Section</p>
+						</div>
+					</Link>
 				</motion.div>
 			</div>
 		</section>

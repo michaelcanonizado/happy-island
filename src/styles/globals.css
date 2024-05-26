@@ -25,6 +25,11 @@
 		--input: 214.3 31.8% 91.4%;
 		--ring: 221.2 83.2% 53.3%;
 		--radius: 0.5rem;
+
+		--red-primary: 0 100% 44%;
+		--yellow-primary: 47 100% 49%;
+		--blue-primary: 222 54% 40%;
+		--green-primary: 157 100% 31%;
 	}
 
 	.dark {
