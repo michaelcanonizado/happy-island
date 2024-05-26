@@ -3,6 +3,8 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 
+import { TreePalm } from 'lucide-react';
+
 import { screenBreakpoints } from '@/helpers/screen-breakpoints';
 
 const Navbar = () => {
@@ -18,8 +20,9 @@ const Navbar = () => {
 					screenBreakpoints
 				)}
 			>
-				<div>
-					<span className="text-2xl">Navbar</span>
+				<div className="flex items-center">
+					<TreePalm className="mt-[-5px]" />
+					<span className="text-2xl font-semibold">Happy Island</span>
 				</div>
 				<div>
 					<Link href="/">About</Link>
