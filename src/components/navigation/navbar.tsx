@@ -20,10 +20,10 @@ const Navbar = () => {
 					screenBreakpoints
 				)}
 			>
-				<div className="flex items-center">
+				<Link href="/" className="flex items-center">
 					<TreePalm className="mt-[-5px]" />
 					<span className="text-2xl font-semibold">Happy Island</span>
-				</div>
+				</Link>
 				<div>
 					<Link href="/">About</Link>
 				</div>

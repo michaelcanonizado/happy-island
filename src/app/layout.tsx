@@ -19,7 +19,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" className="">
+		<html lang="en" className="bg-background text-foreground">
 			<body className={poppins.className}>
 				<Navbar />
 				<main className="flex flex-col">{children}</main>
