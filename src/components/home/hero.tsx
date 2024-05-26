@@ -83,7 +83,7 @@ const HeroOverlay = () => {
 
 	return (
 		<motion.div
-			className="absolute left-0 top-0 h-[90vh] w-full flex flex-col items-center justify-center text-center text-background z-20 "
+			className="absolute left-0 top-0 h-[90vh] w-full flex flex-col items-center justify-center text-center text-background-100 z-20 "
 			style={{ opacity }}
 		>
 			<div className="">
