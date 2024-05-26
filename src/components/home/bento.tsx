@@ -9,7 +9,7 @@ import React, { useRef } from 'react';
 
 const bentoGridVariants = {
 	hidden: {
-		y: 40,
+		y: 50,
 	},
 	visible: {
 		y: 0,
@@ -60,8 +60,6 @@ const Bento = () => {
 					whileHover="hover"
 					transition={{
 						type: 'spring',
-						ease: 'linear',
-						stiffness: 75,
 						y: { delay: 0.15 },
 					}}
 				>
@@ -82,8 +80,6 @@ const Bento = () => {
 					whileHover="hover"
 					transition={{
 						type: 'spring',
-						ease: 'linear',
-						stiffness: 75,
 						y: { delay: 0.25 },
 					}}
 				>
@@ -104,8 +100,6 @@ const Bento = () => {
 					whileHover="hover"
 					transition={{
 						type: 'spring',
-						ease: 'linear',
-						stiffness: 75,
 						y: { delay: 0.35 },
 					}}
 				>
