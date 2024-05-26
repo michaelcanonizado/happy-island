@@ -15,6 +15,12 @@ import {
 	CarouselPrevious,
 } from '@/components/ui/carousel';
 
+const imagePaths = [
+	'/home/details/catanduanes-1.jpg',
+	'/home/details/catanduanes-2.jpg',
+	'/home/details/catanduanes-3.jpg',
+];
+
 const Details = () => {
 	return (
 		<div className={cn('mx-auto mt-[150px] w-full px-4', screenBreakpoints)}>
@@ -43,13 +49,13 @@ const Details = () => {
 				<div className="px-12">
 					<Carousel className="w-full">
 						<CarouselContent>
-							{Array.from({ length: 5 }).map((_, index) => (
+							{imagePaths.map((path, index) => (
 								<CarouselItem className="" key={index}>
 									<div className="p-1">
 										<Card className="rounded-xl overflow-hidden">
 											<CardContent className="flex aspect-square items-center justify-center p-6 relative">
 												<Image
-													src="/home/details/catanduanes-1.jpg"
+													src={path}
 													fill
 													alt="Catanduanes"
 													style={{
