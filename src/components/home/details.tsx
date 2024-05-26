@@ -18,6 +18,7 @@ import {
 	CarouselNext,
 	CarouselPrevious,
 } from '@/components/ui/carousel';
+import { bayon } from '@/styles/fonts';
 
 const imagePaths = [
 	'/home/details/catanduanes-1.jpg',
@@ -80,7 +81,9 @@ const DetailsTextGroup = () => {
 				initial="hidden"
 				whileInView="visible"
 			>
-				<h2 className="text-4xl font-semibold">
+				<h2
+					className={`text-5xl font-semibold ${bayon.variable} font-display tracking-wider`}
+				>
 					Experience a New Adventure
 				</h2>
 			</motion.div>

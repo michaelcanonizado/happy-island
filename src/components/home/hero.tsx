@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import React, { useRef } from 'react';
 
+import { bayon } from '@/styles/fonts';
+
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 const Hero = () => {
@@ -85,13 +87,17 @@ const HeroOverlay = () => {
 			style={{ opacity }}
 		>
 			<div className="">
-				<p className="">Discover</p>
+				<p className="text-2xl">Discover</p>
 			</div>
 			<div className="">
-				<h1 className="text-5xl font-bold tracking-widest">CATANDUANES</h1>
+				<h1
+					className={`text-8xl font-bold ${bayon.variable} font-display tracking-widest`}
+				>
+					CATANDUANES
+				</h1>
 			</div>
 			<div className="max-w-[500px]">
-				<p className="">
+				<p className="text-xl leading-6">
 					A charming island province in the Philippines, is located east of
 					the Mainland Bicol area of the Luzon Archipelago. Known for its
 					natural beauty and rich cultural legacy, provides an

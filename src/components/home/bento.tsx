@@ -2,6 +2,7 @@
 
 import { screenBreakpoints } from '@/helpers/screen-breakpoints';
 import { cn } from '@/lib/utils';
+import { bayon } from '@/styles/fonts';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -240,7 +241,11 @@ const BentoHeader = () => {
 				initial={{ y: 100 }}
 				whileInView={{ y: 0 }}
 			>
-				<h2 className="text-4xl font-semibold">Discover</h2>
+				<h2
+					className={`text-5xl font-semibold ${bayon.variable} font-display tracking-wider`}
+				>
+					Discover
+				</h2>
 			</motion.div>
 		</div>
 	);

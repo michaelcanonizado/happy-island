@@ -18,6 +18,10 @@ const config = {
 			},
 		},
 		extend: {
+			fontFamily: {
+				display: ['var(--font-display)'],
+				body: ['var(--font-body)'],
+			},
 			colors: {
 				red: {
 					primary: 'hsl(var(--red-primary))',

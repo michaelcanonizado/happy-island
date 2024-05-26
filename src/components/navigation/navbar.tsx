@@ -6,12 +6,13 @@ import Link from 'next/link';
 import { TreePalm } from 'lucide-react';
 
 import { screenBreakpoints } from '@/helpers/screen-breakpoints';
+import { bayon } from '@/styles/fonts';
 
 const Navbar = () => {
 	return (
 		<header
 			className={cn(
-				'sticky top-0 w-screen z-50 border-b-[1px] border-gray-200 bg-background'
+				`sticky top-0 w-screen z-50 border-b-[1px] border-gray-200 bg-background ${bayon.variable} font-display tracking-widest`
 			)}
 		>
 			<nav

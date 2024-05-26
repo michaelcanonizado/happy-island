@@ -1,12 +1,8 @@
 import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
+import { portLligatSans } from '@/styles/fonts';
 import '@/styles/globals.css';
-import Navbar from '@/components/navigation/navbar';
 
-const poppins = Poppins({
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	subsets: ['latin'],
-});
+import Navbar from '@/components/navigation/navbar';
 
 export const metadata: Metadata = {
 	title: 'RPH Website',
@@ -20,7 +16,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className="bg-background text-foreground">
-			<body className={poppins.className}>
+			<body className={`${portLligatSans.variable} font-body text-xl`}>
 				<Navbar />
 				<main className="flex flex-col">{children}</main>
 			</body>
