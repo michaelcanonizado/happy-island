@@ -40,17 +40,32 @@ const HeroStickyImage = () => {
 				className="bg-black absolute inset-0 z-10"
 				style={{ opacity: opacity }}
 			/>
-			<div className="w-full h-[100px] absolute bottom-0 z-20">
-				<Image
-					src="/home/wave.svg"
-					fill
-					alt="Wave"
-					style={{
-						objectFit: 'cover',
-						objectPosition: 'left',
-					}}
-				></Image>
-			</div>
+			<HeroWave />
+		</motion.div>
+	);
+};
+
+const HeroWave = () => {
+	const targetRef = useRef(null);
+
+	const { scrollYProgress } = useScroll({
+		target: targetRef,
+		offset: ['start center', 'start 30%'],
+	});
+
+	const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
+
+	return (
+		<motion.div className="w-full h-[100px] absolute bottom-0 z-20">
+			<Image
+				src="/home/wave.svg"
+				fill
+				alt="Wave"
+				style={{
+					objectFit: 'cover',
+					objectPosition: 'left',
+				}}
+			></Image>
 		</motion.div>
 	);
 };
