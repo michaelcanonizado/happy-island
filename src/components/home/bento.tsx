@@ -24,95 +24,23 @@ const Bento = () => {
 	return (
 		<section
 			className={cn(
-				'relative flex flex-col items-center mx-auto w-full px-6 py-[150px]',
-				screenBreakpoints
+				'relative flex flex-col items-center px-6 py-[100px] mt-[200px] bg-background-200 border-2'
 			)}
 		>
+			<div className="w-full h-[100px] absolute top-[-100px] z-10">
+				<Image
+					src="/home/wave-2.svg"
+					fill
+					alt="Wave"
+					style={{
+						objectFit: 'cover',
+						objectPosition: 'left',
+					}}
+				></Image>
+			</div>
 			<BentoHeader />
-			<div className="w-full h-[500px] grid grid-cols-10 grid-rows-2 gap-4 text-background">
-				<motion.div
-					className="relative
-					e bg-yellow-primary col-span-6 rounded-xl"
-					variants={bentoGridVariants}
-					initial="hidden"
-					whileInView="visible"
-					whileHover="hover"
-					transition={{
-						type: 'spring',
-						ease: 'linear',
-						stiffness: 75,
-						y: { delay: 0.05 },
-					}}
-				>
-					<Link
-						href="/festivals"
-						className="absolute inset-0 flex flex-col justify-center items-center"
-					>
-						<div className="">
-							<p className="">Festivals</p>
-						</div>
-					</Link>
-				</motion.div>
-				<motion.div
-					className="relative bg-red-primary col-span-4 rounded-xl"
-					variants={bentoGridVariants}
-					initial="hidden"
-					whileInView="visible"
-					whileHover="hover"
-					transition={{
-						type: 'spring',
-						y: { delay: 0.15 },
-					}}
-				>
-					<Link
-						href="/folk-tales"
-						className="absolute inset-0 flex flex-col justify-center items-center"
-					>
-						<div className="">
-							<p className="">Folk Tales</p>
-						</div>
-					</Link>
-				</motion.div>
-				<motion.div
-					className="relative bg-blue-primary col-span-4 rounded-xl"
-					variants={bentoGridVariants}
-					initial="hidden"
-					whileInView="visible"
-					whileHover="hover"
-					transition={{
-						type: 'spring',
-						y: { delay: 0.25 },
-					}}
-				>
-					<Link
-						href="/tourist-destinations"
-						className="absolute inset-0 flex flex-col justify-center items-center"
-					>
-						<div className="">
-							<p className="">Tourist Destinations</p>
-						</div>
-					</Link>
-				</motion.div>
-				<motion.div
-					className="relative bg-green-primary col-span-6 rounded-xl"
-					variants={bentoGridVariants}
-					initial="hidden"
-					whileInView="visible"
-					whileHover="hover"
-					transition={{
-						type: 'spring',
-						y: { delay: 0.35 },
-					}}
-				>
-					<Link
-						href="/section"
-						className="absolute inset-0 flex flex-col justify-center items-center"
-					>
-						<div className="">
-							<p className="">Add Section</p>
-						</div>
-					</Link>
-				</motion.div>
+			<div className={cn('w-full mx-auto', screenBreakpoints)}>
+				<BentoGrid />
 			</div>
 		</section>
 	);
@@ -237,7 +165,7 @@ const BentoHeader = () => {
 				/>
 			</motion.div>
 			<motion.div
-				className="absolute bottom-0 w-full pt-[50px] flex justify-center bg-gradient-to-t from-background  to-transparent"
+				className="absolute bottom-0 w-full pt-[50px] flex justify-center bg-gradient-to-t from-background-200  to-transparent"
 				initial={{ y: 100 }}
 				whileInView={{ y: 0 }}
 			>
@@ -246,6 +174,96 @@ const BentoHeader = () => {
 				>
 					Discover
 				</h2>
+			</motion.div>
+		</div>
+	);
+};
+
+const BentoGrid = () => {
+	return (
+		<div className="w-full h-[500px] grid grid-cols-10 grid-rows-2 gap-4 text-background">
+			<motion.div
+				className="relative
+		e bg-yellow-primary col-span-6 rounded-xl"
+				variants={bentoGridVariants}
+				initial="hidden"
+				whileInView="visible"
+				whileHover="hover"
+				transition={{
+					type: 'spring',
+					ease: 'linear',
+					stiffness: 75,
+					y: { delay: 0.05 },
+				}}
+			>
+				<Link
+					href="/festivals"
+					className="absolute inset-0 flex flex-col justify-center items-center"
+				>
+					<div className="">
+						<p className="">Festivals</p>
+					</div>
+				</Link>
+			</motion.div>
+			<motion.div
+				className="relative bg-red-primary col-span-4 rounded-xl"
+				variants={bentoGridVariants}
+				initial="hidden"
+				whileInView="visible"
+				whileHover="hover"
+				transition={{
+					type: 'spring',
+					y: { delay: 0.15 },
+				}}
+			>
+				<Link
+					href="/folk-tales"
+					className="absolute inset-0 flex flex-col justify-center items-center"
+				>
+					<div className="">
+						<p className="">Folk Tales</p>
+					</div>
+				</Link>
+			</motion.div>
+			<motion.div
+				className="relative bg-blue-primary col-span-4 rounded-xl"
+				variants={bentoGridVariants}
+				initial="hidden"
+				whileInView="visible"
+				whileHover="hover"
+				transition={{
+					type: 'spring',
+					y: { delay: 0.25 },
+				}}
+			>
+				<Link
+					href="/tourist-destinations"
+					className="absolute inset-0 flex flex-col justify-center items-center"
+				>
+					<div className="">
+						<p className="">Tourist Destinations</p>
+					</div>
+				</Link>
+			</motion.div>
+			<motion.div
+				className="relative bg-green-primary col-span-6 rounded-xl"
+				variants={bentoGridVariants}
+				initial="hidden"
+				whileInView="visible"
+				whileHover="hover"
+				transition={{
+					type: 'spring',
+					y: { delay: 0.35 },
+				}}
+			>
+				<Link
+					href="/section"
+					className="absolute inset-0 flex flex-col justify-center items-center"
+				>
+					<div className="">
+						<p className="">Add Section</p>
+					</div>
+				</Link>
 			</motion.div>
 		</div>
 	);

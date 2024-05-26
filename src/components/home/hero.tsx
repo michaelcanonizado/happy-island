@@ -60,7 +60,7 @@ const HeroWave = () => {
 	return (
 		<motion.div className="w-full h-[100px] absolute bottom-0 z-20">
 			<Image
-				src="/home/wave.svg"
+				src="/home/wave-1.svg"
 				fill
 				alt="Wave"
 				style={{
