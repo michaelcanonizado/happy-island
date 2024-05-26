@@ -64,11 +64,11 @@ const Bento = () => {
 					}}
 				>
 					<Link
-						href="/falk-tales"
+						href="/folk-tales"
 						className="absolute inset-0 flex flex-col justify-center items-center"
 					>
 						<div className="">
-							<p className="">Falk Tales</p>
+							<p className="">Folk Tales</p>
 						</div>
 					</Link>
 				</motion.div>
