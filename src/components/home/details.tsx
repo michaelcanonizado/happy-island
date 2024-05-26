@@ -1,8 +1,12 @@
-import React from 'react';
+'use client';
+
+import React, { useRef } from 'react';
 
 import { screenBreakpoints } from '@/helpers/screen-breakpoints';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
+
+import { motion } from 'framer-motion';
 
 import { MapPin, Smile, Wind } from 'lucide-react';
 
@@ -25,27 +29,7 @@ const Details = () => {
 	return (
 		<div className={cn('mx-auto mt-[150px] w-full px-4', screenBreakpoints)}>
 			<section className="grid lg:grid-cols-2 gap-10">
-				<div className="px-12 lg:px-0">
-					<div className="mb-6 ml-[58px]">
-						<h2 className="text-4xl font-semibold">
-							Experience a New Adventure
-						</h2>
-					</div>
-					<div className="flex flex-col gap-4">
-						<DetailsText
-							text="Island province located in the Bicol Region of Luzon in the Philippines."
-							iconPath="/home/details/smile.png"
-						></DetailsText>
-						<DetailsText
-							text="Known as the “Happy Island,” it boasts stunning landscapes, pristine beaches, and a rich culture."
-							iconPath="/home/details/map-pin.png"
-						></DetailsText>
-						<DetailsText
-							text="Also known as the Land of the Howling Winds, owing to the island's annual typhoons"
-							iconPath="/home/details/wind.png"
-						></DetailsText>
-					</div>
-				</div>
+				<DetailsTextGroup />
 				<div className="px-12">
 					<Carousel className="w-full">
 						<CarouselContent>
@@ -78,16 +62,61 @@ const Details = () => {
 	);
 };
 
+const bentoGridVariants = {
+	hidden: {
+		y: 50,
+	},
+	visible: {
+		y: 0,
+	},
+};
+
+const DetailsTextGroup = () => {
+	return (
+		<div className="px-12 lg:px-0">
+			<motion.div
+				className="mb-6 ml-[58px]"
+				variants={bentoGridVariants}
+				initial="hidden"
+				whileInView="visible"
+			>
+				<h2 className="text-4xl font-semibold">
+					Experience a New Adventure
+				</h2>
+			</motion.div>
+			<div className="flex flex-col gap-4">
+				<DetailsText
+					text="Island province located in the Bicol Region of Luzon in the Philippines."
+					iconPath="/home/details/smile.png"
+				></DetailsText>
+				<DetailsText
+					text="Known as the “Happy Island,” it boasts stunning landscapes, pristine beaches, and a rich culture."
+					iconPath="/home/details/map-pin.png"
+				></DetailsText>
+				<DetailsText
+					text="Also known as the Land of the Howling Winds, owing to the island's annual typhoons"
+					iconPath="/home/details/wind.png"
+				></DetailsText>
+			</div>
+		</div>
+	);
+};
+
 const DetailsText = ({ text, iconPath }: { text: string; iconPath: string }) => {
 	return (
-		<div className={`flex gap-2`}>
+		<motion.div
+			className={`flex gap-2`}
+			variants={bentoGridVariants}
+			initial="hidden"
+			whileInView="visible"
+		>
 			<div className="relative min-w-[50px] flex justify-center items-center whitespace-nowrap">
 				<Image src={iconPath} width={40} height={40} alt="Icon" />
 			</div>
 			<div className="shrink min-h-fit">
 				<p className="">{text}</p>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
