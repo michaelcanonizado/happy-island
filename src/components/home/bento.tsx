@@ -84,11 +84,11 @@ const Bento = () => {
 					}}
 				>
 					<Link
-						href="/tourist-places"
+						href="/tourist-destinations"
 						className="absolute inset-0 flex flex-col justify-center items-center"
 					>
 						<div className="">
-							<p className="">Tourist Places</p>
+							<p className="">Tourist Destinations</p>
 						</div>
 					</Link>
 				</motion.div>
