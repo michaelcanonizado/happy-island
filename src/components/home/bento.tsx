@@ -217,11 +217,11 @@ const BentoGrid = () => {
 				}}
 			>
 				<Link
-					href="/folk-tales"
+					href="/folktales"
 					className="absolute inset-0 flex flex-col justify-center items-center"
 				>
 					<div className="">
-						<p className="">Folk Tales</p>
+						<p className="">Folktales</p>
 					</div>
 				</Link>
 			</motion.div>
