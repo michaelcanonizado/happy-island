@@ -29,6 +29,15 @@
 				" Initially, Bagamanoc was unnamed, untouched by human presence. Its sandy grounds were home to various fierce quadrupeds and wild birds. The landscape was adorned with ancient, towering trees intertwined with thorny vines, hosting multicolored birds that nested and fed on the fruits of these trees."
 			],
 			"pillData": "June 12-13"
-		}
+		},
+		{
+			"name": "Badas Festival",
+			"isHighlight": false,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"The festival reflects the heroic nature of the people of Baras. The term \"Badas,\" which refers to wild rattan, was historically fashioned into spears to defend against Moro raiders, symbolizing the resilient spirit of the Barasnons. During wartime, they were the first in Catanduanes to resist the invading Japanese forces. Today, the people of Baras continue to exhibit courage amidst life's challenges, symbolized by the majestic yet unpredictable waves of Puraran. They are strong yet adaptable, embodying both beauty and bravery. \"Badas\" encapsulates the historical evolution of Bicolandia's surfing capital."
+			],
+			"pillData": "August 10"
+		},
 	]
 }
