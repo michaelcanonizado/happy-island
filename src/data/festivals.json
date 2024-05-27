@@ -10,6 +10,15 @@
 				"The provincial festival, held during the third week of October, marks the founding anniversary of Catanduanes as an independent province separate from Albay. This annual event features a range of special activities, including a surfing competition, a pantomina street dance, a beauty pageant, an agricultural and trade fair, a sportsfest, guided tours, and photo exhibits."
 			],
 			"pillData": "3rd week of October"
+		},
+		{
+			"name": "Kagharong Festival",
+			"isHighlight": false,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"This event is observed throughout the province on December 24th. It is a folk-religious portrayal of a Christmas custom. It revolves around reenacting the challenges faced by Joseph and Mary as they sought shelter in Bethlehem. The reenactment involves singing, depicting their journey from one house to another in search of accommodation. The host, known as Kagharong, symbolically welcomes them by shaking hands with the leader and offering donations during the enactment."
+			],
+			"pillData": "December 24"
 		}
 	]
 }
