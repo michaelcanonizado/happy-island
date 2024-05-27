@@ -25,7 +25,8 @@ const Navbar = () => {
 					<TreePalm className="mt-[-5px]" />
 					<span className="text-2xl font-semibold">Happy Island</span>
 				</Link>
-				<div className="flex gap-4 ml-4">
+
+				<div className="flex gap-4 ml-4 text-base">
 					<Link
 						href="/"
 						className="hover:bg-background-200 transition-colors ease-linear rounded-md px-4"
@@ -45,6 +46,7 @@ const Navbar = () => {
 						Where to Go
 					</Link>
 				</div>
+
 				<div className="">
 					<a
 						href="https://github.com/michaelcanonizado/rph-website"
