@@ -84,5 +84,14 @@
 			],
 			"pillData": "July 25"
 		},
+		{
+			"name": "Burunyogan Festival",
+			"isHighlight": false,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"\"Burunyog\" is an old Bikolano word meaning united. Combined with “Niyog” (coconut), it forms “Buruniyogan,” a unique celebration highlighting the benefits of coconuts. The festival is inspired by the unity of Our Lady of Sorrows of Batong Paloway and St. Andrew the Apostle. \"Niyog,\" the tree of life, brings us together in San Andres, Catanduanes, showcasing the town’s offerings."
+			],
+			"pillData": "April 15"
+		},
 	]
 }
