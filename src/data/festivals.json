@@ -66,5 +66,14 @@
 			],
 			"pillData": "May 14-15"
 		},
+		{
+			"name": "Dinahit Festival",
+			"isHighlight": false,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"The annual summer festival of the Pandanganons began in 1993, founded by UP Professor Efren B. Isorena. The festival commemorates the town's history, tracing back to the arrival of Austronesian people in \"Dinahit\" sailing vessels. Named after the wind-driven vessel \"Dinahit,\" which navigated challenging waters and winds, the festival symbolizes resilience amidst technological and cultural changes. Pandananons, masters of survival, work tirelessly to provide for their families, venturing into deep waters with unwavering determination and resilience."
+			],
+			"pillData": "After Easter Sunday"
+		},
 	]
 }
