@@ -47,6 +47,15 @@
 				"Bato, one of Catanduanes' eleven municipalities, is graced with natural beauty and agricultural prosperity. However, over time, it faced challenges from natural disasters. Despite devastation and hardship, the townspeople held onto hope. Through devotion to its patron saint, St. John the Baptist, Bato received renewed abundance and blessings. Abaca emerged as a key industry, while cacao added sweetness to meals.  Its agricultural wealth, nourished by St. John's rains, yields bountiful harvests."
 			],
 			"pillData": "June 23-24"
-		}
+		},
+		{
+			"name": "Sugbo Festival",
+			"isHighlight": false,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"Recognizing the potential of the \"sugbo\" or \"lasa\" (tiger grass) industry and the challenges it faces, a group of civic-minded individuals proposed a festival to celebrate the fiesta of Our Lady of Salvation in Barangay Hitoma. This festival would showcase their primary source of income. The concept for the Sugbo Festival emerged after Typhoon Dindo struck the barangay fiesta in 2004, with the festival officially commencing in May 2005."
+			],
+			"pillData": "May 15"
+		},
 	]
 }
