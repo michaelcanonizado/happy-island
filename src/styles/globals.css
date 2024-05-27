@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.shadow {
+	filter: drop-shadow(0 10px 8px rgba(250, 196, 0, 0.04))
+		drop-shadow(0 4px 3px rgba(250, 196, 0, 0.1));
+}
+
 @layer base {
 	:root {
 		--background-100: 53 63% 95%;
