@@ -93,5 +93,14 @@
 			],
 			"pillData": "April 15"
 		},
+		{
+			"name": "Burak Festival",
+			"isHighlight": true,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"Virac, a thriving municipality, is believed to be named after \"BURAK,\" meaning flower. Early settlers sustained themselves by farming its fertile lands and fishing its rich waters. The town has faced nature’s challenges, especially typhoons, testing the people’s resilience, strength, determination, resourcefulness, and religiosity. To honor their patroness, Nuestra Señora de la Immaculada Conception, and to express gratitude for her blessings and guidance, the Burac Festival was created. Thus, from the capital town of Catanduanes comes the Virac Burak Festival."
+			],
+			"pillData": "December 16-25"
+		}
 	]
 }
