@@ -39,5 +39,14 @@
 			],
 			"pillData": "August 10"
 		},
+		{
+			"name": "Abaca Festival",
+			"isHighlight": false,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"Bato, one of Catanduanes' eleven municipalities, is graced with natural beauty and agricultural prosperity. However, over time, it faced challenges from natural disasters. Despite devastation and hardship, the townspeople held onto hope. Through devotion to its patron saint, St. John the Baptist, Bato received renewed abundance and blessings. Abaca emerged as a key industry, while cacao added sweetness to meals.  Its agricultural wealth, nourished by St. John's rains, yields bountiful harvests."
+			],
+			"pillData": "June 23-24"
+		}
 	]
 }
