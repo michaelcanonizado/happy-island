@@ -19,6 +19,16 @@
 				"This event is observed throughout the province on December 24th. It is a folk-religious portrayal of a Christmas custom. It revolves around reenacting the challenges faced by Joseph and Mary as they sought shelter in Bethlehem. The reenactment involves singing, depicting their journey from one house to another in search of accommodation. The host, known as Kagharong, symbolically welcomes them by shaking hands with the leader and offering donations during the enactment."
 			],
 			"pillData": "December 24"
+		},
+		{
+			"name": "Manok-Manok Festival",
+			"isHighlight": false,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"The Manok-manok festival, celebrated during each town fiesta, is a tribute to the Bagamanocnon character, culture, and way of life, focusing on the unique aspects of \"manok\" (chicken), which inspired the name of the municipality. The festival features street dancing that showcases the distinctive characteristics and movements of chickens.",
+				" Initially, Bagamanoc was unnamed, untouched by human presence. Its sandy grounds were home to various fierce quadrupeds and wild birds. The landscape was adorned with ancient, towering trees intertwined with thorny vines, hosting multicolored birds that nested and fed on the fruits of these trees."
+			],
+			"pillData": "June 12-13"
 		}
 	]
 }
