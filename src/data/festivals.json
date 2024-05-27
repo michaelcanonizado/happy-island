@@ -1,10 +1,14 @@
-[
-	{
-		"name": "burunyugan festival",
-		"images": "/festivals/burunyugan-1.jpg",
-		"details": [
-			"\"Burunyog\" is an old Bikolano word meaning united. Combined with “Niyog” (coconut), it forms “Buruniyogan,” a unique celebration highlighting the benefits of coconuts. Nearly every part of the coconut is usable, making Buruniyogan distinctive with its four key impacts: Environmental Preservation & Tourism Promotion, Agricultural Development, Economic Growth, and Cultural and Heritage Preservation.",
-			"The festival is inspired by the unity of Our Lady of Sorrows of Batong Paloway and St. Andrew the Apostle. \"Niyog\", the tree of life, brings us together in San Andres, Catanduanes, showcasing the town’s offerings. \"Calolbon ang hinarian! San Andres na ngonian! Mara na sa BuruNIYOGan\" (Calolbon was the past! Now it’s San Andres! Come to Buruniyogan)."
-		]
-	}
-]
+{
+	"title": "festivals",
+	"description": "Each town in Catanduanes holds an annual \"fiesta.\" Key events during this celebration include a town parade, vesper night, an official ball, a concelebrated mass to honor the town's patron saint, and an agricultural fair. The parade, typically featuring municipal employees and officials, local government units, barangay officials, and various schools with their drum and bugle corps, takes place in the town center. Other popular activities include \"perya\" (a game of chance involving coins and prizes) and \"sitsiriya\" (temporary stores set up only during the fiesta).",
+	"data": [
+		{
+			"name": "burunyugan festival",
+			"images": "/festivals/burunyugan-1.jpg",
+			"details": [
+				"\"Burunyog\" is an old Bikolano word meaning united. Combined with “Niyog” (coconut), it forms “Buruniyogan,” a unique celebration highlighting the benefits of coconuts. Nearly every part of the coconut is usable, making Buruniyogan distinctive with its four key impacts: Environmental Preservation & Tourism Promotion, Agricultural Development, Economic Growth, and Cultural and Heritage Preservation.",
+				"The festival is inspired by the unity of Our Lady of Sorrows of Batong Paloway and St. Andrew the Apostle. \"Niyog\", the tree of life, brings us together in San Andres, Catanduanes, showcasing the town’s offerings. \"Calolbon ang hinarian! San Andres na ngonian! Mara na sa BuruNIYOGan\" (Calolbon was the past! Now it’s San Andres! Come to Buruniyogan)."
+			]
+		}
+	]
+}
