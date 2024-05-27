@@ -50,12 +50,21 @@
 		},
 		{
 			"name": "Sugbo Festival",
-			"isHighlight": false,
+			"isHighlight": true,
 			"images": "/festivals/burunyugan.jpg",
 			"details": [
 				"Recognizing the potential of the \"sugbo\" or \"lasa\" (tiger grass) industry and the challenges it faces, a group of civic-minded individuals proposed a festival to celebrate the fiesta of Our Lady of Salvation in Barangay Hitoma. This festival would showcase their primary source of income. The concept for the Sugbo Festival emerged after Typhoon Dindo struck the barangay fiesta in 2004, with the festival officially commencing in May 2005."
 			],
 			"pillData": "May 15"
+		},
+		{
+			"name": "Umasilhag Festival of Gigmoto",
+			"isHighlight": false,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"In the eastern seaboard of Catanduanes lies the paradise town of Gigmoto, known for its finest abaca and abundant harvests. The sparkling rivers and seas offer rich aquatic resources. The hardworking and God-fearing people rely on farming, fishing, and abaca stripping for their livelihood. Inspired by bountiful harvests and blessings, they celebrate UMASILHAG, an annual feast honoring their patron, St. Isidore the Farmer. UMASILHAG is a festival of merrymaking and thanksgiving!"
+			],
+			"pillData": "May 14-15"
 		},
 	]
 }
