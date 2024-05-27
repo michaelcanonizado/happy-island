@@ -24,18 +24,22 @@ const Delicacies = () => {
 			/>
 			<div
 				className={cn(
-					'px-4 grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mx-auto',
+					'px-4 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full mx-auto',
 					screenBreakpoints
 				)}
 			>
-				<CardTypeB />
-				<CardTypeB />
-				<CardTypeB />
-				<CardTypeB />
-				<CardTypeB />
-				<CardTypeB />
-				<CardTypeB />
-				<CardTypeB />
+				<div className="grid grid-cols-1 mt-[30%] gap-6">
+					<CardTypeB />
+					<CardTypeB />
+					<CardTypeB />
+					<CardTypeB />
+				</div>
+				<div className="grid grid-cols-1  gap-6">
+					<CardTypeB />
+					<CardTypeB />
+					<CardTypeB />
+					<CardTypeB />
+				</div>
 			</div>
 		</article>
 	);
