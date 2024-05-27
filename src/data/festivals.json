@@ -75,5 +75,14 @@
 			],
 			"pillData": "After Easter Sunday"
 		},
+		{
+			"name": "Kinis Festival",
+			"isHighlight": false,
+			"images": "/festivals/burunyugan.jpg",
+			"details": [
+				"Panganiban, a peaceful and bountiful town, lies northwest of Bagamanoc and southeast of Viga. Known as the \"Kinis\" Capital of Catanduanes, it boasts 218.47 hectares of fishponds and vast mangrove areas that produce a plentiful supply of tasty mud crabs. The \"Kinis\" Festival showcases Panganiban's main product and promotes the town as the crab capital of the province. Highlights include a float parade featuring the crab princess, exotic street dancing in crab costumes, and an eat-all-you-can seafood menu, especially steamed or cooked crab."
+			],
+			"pillData": "July 25"
+		},
 	]
 }
