@@ -5,7 +5,7 @@
 		{
 			"name": "Puraran Beach",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/puraran-beach.jpg",
 			"color": "#776A01",
 			"details": [
 				"In 1979, two Australian surfers explored Baras, Catanduanes, and encountered what they termed as the \"majestic\" waves of Puraran Beach. This discovery led to an annual influx of surfers during the surfing season from August to November. Over time, numerous renowned surfers have joined in. Surfing competitions are now a regular feature during the town fiesta in August and for national and international surfers in October."
@@ -15,7 +15,7 @@
     {
 			"name": "Binurong Point",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/binurong-point.jpg",
 			"color": "#776A01",
 			"details": [
 				"Binurong Point in Catanduanes is a scenic coastal spot known for its breathtaking views of rolling hills, dramatic cliffs, and the vast Pacific Ocean. Often compared to Batanes due to its stunning landscape, it offers a serene environment perfect for hiking, photography, and witnessing spectacular sunrises and sunsets. The lush greenery and rugged coastline make it a must-visit destination for nature lovers and adventure seekers."
@@ -25,7 +25,7 @@
     {
 			"name": "Maribina Falls",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/maribina-falls.jpg",
 			"color": "#776A01",
 			"details": [
 				"Maribina Falls in Bato, Catanduanes, named after the nearby barangays of Marinawa and Binanwahan, has long been a local favorite for its beautiful cascades and refreshing pools. Initially known mainly to residents, it has gained popularity as a picturesque spot for swimming and picnicking, showcasing the island's natural beauty."
@@ -35,7 +35,7 @@
     {
 			"name": "Mamangal Beach Resort",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/mamangal.jpg",
 			"color": "#776A01",
 			"details": [
 				"Mamangal Beach Resort in Catanduanes has evolved from a serene local beach into a popular tourist destination, known for its pristine sands and clear waters. Initially a hidden gem for locals, it now attracts visitors seeking a tranquil seaside escape."
@@ -45,7 +45,7 @@
     {
 			"name": "Luyang Cave Park",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/luyang-cave.jpg",
 			"color": "#776A01",
 			"details": [
 				"Luyang Cave boasts breathtaking limestone formations, sculpted by millennia of natural processes. Visitors can explore its vast chambers, admiring the intricate patterns and textures of the rocks. A notable feature is the subterranean river teeming with diverse aquatic life, offering nature enthusiasts a captivating experience."
@@ -55,7 +55,7 @@
     {
 			"name": "Bato Church",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/bato-church.jpg",
 			"color": "#776A01",
 			"details": [
 				"Bato Church, a beloved destination in Catanduanes, is a stunning relic of the 1800s, revered for its enduring beauty and historical significance. Its intricate architecture, both outside and within, reflects a rich past marked by notable events like the Philippine Revolution and World War II, showcasing the resilience of Catanduanes' inhabitants."
@@ -65,7 +65,7 @@
     {
 			"name": "Cagnipa Rolling Hills",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/cagnipa.jpg",
 			"color": "#776A01",
 			"details": [
 				"Cagnipa Rolling Hills in Catanduanes, originally used as grazing land for local livestock, has transformed into a popular destination for tourists and nature enthusiasts. The area's lush, undulating hills and sweeping ocean views were largely known only to locals until increased tourism and social media exposure highlighted its breathtaking scenery. "
@@ -75,7 +75,7 @@
     {
 			"name": "Poseidon Rock Formation",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/poseidon.jpg",
 			"color": "#776A01",
 			"details": [
 				"Poseidon Rock Formation in Catanduanes, named for its striking resemblance to the Greek god's trident, has become a notable natural landmark. Initially known mainly to local fishermen, it gained wider attention through tourism efforts and social media, drawing visitors intrigued by its unique shape and dramatic coastal setting."
@@ -85,7 +85,7 @@
     {
 			"name": "Bontahiya Falls",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/bontahiya.jpg",
 			"color": "#776A01",
 			"details": [
 				"Bontahiya Falls in Catanduanes, once a secluded natural spot known mostly to locals, has become a popular destination due to its picturesque beauty and serene environment. Increased tourism has highlighted its clear waters and lush surroundings, making it a favored spot for nature lovers and adventurers."
@@ -95,7 +95,7 @@
     {
 			"name": "Tuwad-Tuwadan Blue Lagoon",
 			"isHighlight": false,
-			"images": "/delicacies/latik.jpg",
+			"images": "/tourist-spots/blue-lagoon.jpg",
 			"color": "#776A01",
 			"details": [
 				"Tuwad-Tuwadan Blue Lagoon in Catanduanes has transformed from a hidden gem known primarily to locals into a sought-after destination for its stunning turquoise waters and scenic surroundings. Its rise in popularity is attributed to increased tourism promotion efforts, drawing visitors captivated by its beauty and tranquility."
