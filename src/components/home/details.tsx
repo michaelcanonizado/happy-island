@@ -56,7 +56,7 @@ const DetailsTextGroup = () => {
 				whileInView="visible"
 			>
 				<h2
-					className={`text-5xl font-semibold ${bayon.variable} font-display tracking-wider`}
+					className={`text-4xl sm:text-4xl md:text-5xl font-semibold ${bayon.variable} font-display tracking-wider`}
 				>
 					Experience a New Adventure
 				</h2>
