@@ -46,7 +46,7 @@ const Delicacies = async () => {
 	return (
 		<article className="bg-background-200 pb-[500px]">
 			<Header
-				className="mb-14"
+				className="mb-8"
 				title={data.title}
 				description={data.description}
 			/>
