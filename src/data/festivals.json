@@ -2,101 +2,97 @@
 	"title": "festivals",
 	"description": "Each town in Catanduanes holds an annual \"fiesta.\" Key events during this celebration include a town parade, vesper night, an official ball, a concelebrated mass to honor the town's patron saint, and an agricultural fair. The parade, typically featuring municipal employees and officials, local government units, barangay officials, and various schools with their drum and bugle corps, takes place in the town center. Other popular activities include \"perya\" (a game of chance involving coins and prizes) and \"sitsiriya\" (temporary stores set up only during the fiesta).",
 
-	"data": {
-		"highlights": [
-			{
-				"title": "Catandungan Festival",
-				"isHighlight": true,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"The provincial festival, held during the third week of October, marks the founding anniversary of Catanduanes as an independent province separate from Albay. This annual event features a range of special activities, including a surfing competition, a pantomina street dance, a beauty pageant, an agricultural and trade fair, a sportsfest, guided tours, and photo exhibits."
-				],
-				"pillData": "3rd week of October"
-			},
-			{
-				"title": "Sugbo Festival",
-				"isHighlight": true,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"Recognizing the potential of the \"sugbo\" or \"lasa\" (tiger grass) industry and the challenges it faces, a group of civic-minded individuals proposed a festival to celebrate the fiesta of Our Lady of Salvation in Barangay Hitoma. This festival would showcase their primary source of income. The concept for the Sugbo Festival emerged after Typhoon Dindo struck the barangay fiesta in 2004, with the festival officially commencing in May 2005."
-				],
-				"pillData": null
-			}
-		],
-		"regulars": [
-			{
-				"title": "Kagharong Festival",
-				"isHighlight": false,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"This event is observed throughout the province on December 24th. It is a folk-religious portrayal of a Christmas custom. It revolves around reenacting the challenges faced by Joseph and Mary as they sought shelter in Bethlehem. The reenactment involves singing, depicting their journey from one house to another in search of accommodation. The host, known as Kagharong, symbolically welcomes them by shaking hands with the leader and offering donations during the enactment."
-				],
-				"pillData": "December 24"
-			},
-			{
-				"title": "Manok-Manok Festival",
-				"isHighlight": false,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"The Manok-manok festival, celebrated during each town fiesta, is a tribute to the Bagamanocnon character, culture, and way of life, focusing on the unique aspects of \"manok\" (chicken), which inspired the name of the municipality. The festival features street dancing that showcases the distinctive characteristics and movements of chickens.",
-					" Initially, Bagamanoc was unnamed, untouched by human presence. Its sandy grounds were home to various fierce quadrupeds and wild birds. The landscape was adorned with ancient, towering trees intertwined with thorny vines, hosting multicolored birds that nested and fed on the fruits of these trees."
-				],
-				"pillData": "June 12-13"
-			},
-			{
-				"title": "Badas Festival",
-				"isHighlight": false,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"The festival reflects the heroic nature of the people of Baras. The term \"Badas,\" which refers to wild rattan, was historically fashioned into spears to defend against Moro raiders, symbolizing the resilient spirit of the Barasnons. During wartime, they were the first in Catanduanes to resist the invading Japanese forces. Today, the people of Baras continue to exhibit courage amidst life's challenges, symbolized by the majestic yet unpredictable waves of Puraran. They are strong yet adaptable, embodying both beauty and bravery. \"Badas\" encapsulates the historical evolution of Bicolandia's surfing capital."
-				],
-				"pillData": "August 10"
-			},
-			{
-				"title": "Abaca Festival",
-				"isHighlight": false,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"Bato, one of Catanduanes' eleven municipalities, is graced with natural beauty and agricultural prosperity. However, over time, it faced challenges from natural disasters. Despite devastation and hardship, the townspeople held onto hope. Through devotion to its patron saint, St. John the Baptist, Bato received renewed abundance and blessings. Abaca emerged as a key industry, while cacao added sweetness to meals.  Its agricultural wealth, nourished by St. John's rains, yields bountiful harvests."
-				],
-				"pillData": "June 23-24"
-			},
-			{
-				"title": "Umasilhag Festival of Gigmoto",
-				"isHighlight": false,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"In the eastern seaboard of Catanduanes lies the paradise town of Gigmoto, known for its finest abaca and abundant harvests. The sparkling rivers and seas offer rich aquatic resources. The hardworking and God-fearing people rely on farming, fishing, and abaca stripping for their livelihood. Inspired by bountiful harvests and blessings, they celebrate UMASILHAG, an annual feast honoring their patron, St. Isidore the Farmer. UMASILHAG is a festival of merrymaking and thanksgiving!"
-				],
-				"pillData": "May 14-15"
-			},
-			{
-				"title": "Dinahit Festival",
-				"isHighlight": false,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"The annual summer festival of the Pandanganons began in 1993, founded by UP Professor Efren B. Isorena. The festival commemorates the town's history, tracing back to the arrival of Austronesian people in \"Dinahit\" sailing vessels. Named after the wind-driven vessel \"Dinahit,\" which navigated challenging waters and winds, the festival symbolizes resilience amidst technological and cultural changes. Pandananons, masters of survival, work tirelessly to provide for their families, venturing into deep waters with unwavering determination and resilience."
-				],
-				"pillData": "After Easter Sunday"
-			},
-			{
-				"title": "Kinis Festival",
-				"isHighlight": false,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"Panganiban, a peaceful and bountiful town, lies northwest of Bagamanoc and southeast of Viga. Known as the \"Kinis\" Capital of Catanduanes, it boasts 218.47 hectares of fishponds and vast mangrove areas that produce a plentiful supply of tasty mud crabs. The \"Kinis\" Festival showcases Panganiban's main product and promotes the town as the crab capital of the province. Highlights include a float parade featuring the crab princess, exotic street dancing in crab costumes, and an eat-all-you-can seafood menu, especially steamed or cooked crab."
-				],
-				"pillData": "July 25"
-			},
-			{
-				"title": "Burunyogan Festival",
-				"isHighlight": false,
-				"image": "/images/festivals/abaca.jpg",
-				"details": [
-					"\"Burunyog\" is an old Bikolano word meaning united. Combined with “Niyog” (coconut), it forms “Buruniyogan,” a unique celebration highlighting the benefits of coconuts. The festival is inspired by the unity of Our Lady of Sorrows of Batong Paloway and St. Andrew the Apostle. \"Niyog,\" the tree of life, brings us together in San Andres, Catanduanes, showcasing the town’s offerings."
-				],
-				"pillData": "April 15"
-			}
-		]
-	}
+	"data": [
+		{
+			"title": "Catandungan Festival",
+			"isHighlight": true,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"The provincial festival, held during the third week of October, marks the founding anniversary of Catanduanes as an independent province separate from Albay. This annual event features a range of special activities, including a surfing competition, a pantomina street dance, a beauty pageant, an agricultural and trade fair, a sportsfest, guided tours, and photo exhibits."
+			],
+			"pillData": "3rd week of October"
+		},
+		{
+			"title": "Kagharong Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"This event is observed throughout the province on December 24th. It is a folk-religious portrayal of a Christmas custom. It revolves around reenacting the challenges faced by Joseph and Mary as they sought shelter in Bethlehem. The reenactment involves singing, depicting their journey from one house to another in search of accommodation. The host, known as Kagharong, symbolically welcomes them by shaking hands with the leader and offering donations during the enactment."
+			],
+			"pillData": "December 24"
+		},
+		{
+			"title": "Manok-Manok Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"The Manok-manok festival, celebrated during each town fiesta, is a tribute to the Bagamanocnon character, culture, and way of life, focusing on the unique aspects of \"manok\" (chicken), which inspired the name of the municipality. The festival features street dancing that showcases the distinctive characteristics and movements of chickens.",
+				" Initially, Bagamanoc was unnamed, untouched by human presence. Its sandy grounds were home to various fierce quadrupeds and wild birds. The landscape was adorned with ancient, towering trees intertwined with thorny vines, hosting multicolored birds that nested and fed on the fruits of these trees."
+			],
+			"pillData": "June 12-13"
+		},
+		{
+			"title": "Badas Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"The festival reflects the heroic nature of the people of Baras. The term \"Badas,\" which refers to wild rattan, was historically fashioned into spears to defend against Moro raiders, symbolizing the resilient spirit of the Barasnons. During wartime, they were the first in Catanduanes to resist the invading Japanese forces. Today, the people of Baras continue to exhibit courage amidst life's challenges, symbolized by the majestic yet unpredictable waves of Puraran. They are strong yet adaptable, embodying both beauty and bravery. \"Badas\" encapsulates the historical evolution of Bicolandia's surfing capital."
+			],
+			"pillData": "August 10"
+		},
+		{
+			"title": "Abaca Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"Bato, one of Catanduanes' eleven municipalities, is graced with natural beauty and agricultural prosperity. However, over time, it faced challenges from natural disasters. Despite devastation and hardship, the townspeople held onto hope. Through devotion to its patron saint, St. John the Baptist, Bato received renewed abundance and blessings. Abaca emerged as a key industry, while cacao added sweetness to meals.  Its agricultural wealth, nourished by St. John's rains, yields bountiful harvests."
+			],
+			"pillData": "June 23-24"
+		},
+		{
+			"title": "Sugbo Festival",
+			"isHighlight": true,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"Recognizing the potential of the \"sugbo\" or \"lasa\" (tiger grass) industry and the challenges it faces, a group of civic-minded individuals proposed a festival to celebrate the fiesta of Our Lady of Salvation in Barangay Hitoma. This festival would showcase their primary source of income. The concept for the Sugbo Festival emerged after Typhoon Dindo struck the barangay fiesta in 2004, with the festival officially commencing in May 2005."
+			],
+			"pillData": null
+		},
+		{
+			"title": "Umasilhag Festival of Gigmoto",
+			"isHighlight": false,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"In the eastern seaboard of Catanduanes lies the paradise town of Gigmoto, known for its finest abaca and abundant harvests. The sparkling rivers and seas offer rich aquatic resources. The hardworking and God-fearing people rely on farming, fishing, and abaca stripping for their livelihood. Inspired by bountiful harvests and blessings, they celebrate UMASILHAG, an annual feast honoring their patron, St. Isidore the Farmer. UMASILHAG is a festival of merrymaking and thanksgiving!"
+			],
+			"pillData": "May 14-15"
+		},
+		{
+			"title": "Dinahit Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"The annual summer festival of the Pandanganons began in 1993, founded by UP Professor Efren B. Isorena. The festival commemorates the town's history, tracing back to the arrival of Austronesian people in \"Dinahit\" sailing vessels. Named after the wind-driven vessel \"Dinahit,\" which navigated challenging waters and winds, the festival symbolizes resilience amidst technological and cultural changes. Pandananons, masters of survival, work tirelessly to provide for their families, venturing into deep waters with unwavering determination and resilience."
+			],
+			"pillData": "After Easter Sunday"
+		},
+		{
+			"title": "Kinis Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"Panganiban, a peaceful and bountiful town, lies northwest of Bagamanoc and southeast of Viga. Known as the \"Kinis\" Capital of Catanduanes, it boasts 218.47 hectares of fishponds and vast mangrove areas that produce a plentiful supply of tasty mud crabs. The \"Kinis\" Festival showcases Panganiban's main product and promotes the town as the crab capital of the province. Highlights include a float parade featuring the crab princess, exotic street dancing in crab costumes, and an eat-all-you-can seafood menu, especially steamed or cooked crab."
+			],
+			"pillData": "July 25"
+		},
+		{
+			"title": "Burunyogan Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/abaca.jpg",
+			"details": [
+				"\"Burunyog\" is an old Bikolano word meaning united. Combined with “Niyog” (coconut), it forms “Buruniyogan,” a unique celebration highlighting the benefits of coconuts. The festival is inspired by the unity of Our Lady of Sorrows of Batong Paloway and St. Andrew the Apostle. \"Niyog,\" the tree of life, brings us together in San Andres, Catanduanes, showcasing the town’s offerings."
+			],
+			"pillData": "April 15"
+		}
+	]
 }
