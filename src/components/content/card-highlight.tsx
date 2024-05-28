@@ -49,13 +49,13 @@ const CardHighlight = ({
 				<div className="absolute bottom-0 px-4 py-4">
 					<CardHeader className="pb-0 px-0">
 						<CardTitle
-							className={`${bayon.variable} text-background-100 font-display tracking-widest text-4xl`}
+							className={`${bayon.variable} text-background-100 font-display tracking-widest text-2xl sm:text-3xl md:text-4xl`}
 						>
 							{title}
 						</CardTitle>
 					</CardHeader>
 					<CardContent className="p-0 mt-4 md:w-[70%]">
-						<CardDescription className="text-background-100 text-lg">
+						<CardDescription className="text-background-100 text-base md:text-lg">
 							{description}
 						</CardDescription>
 					</CardContent>
