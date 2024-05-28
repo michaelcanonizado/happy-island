@@ -67,5 +67,16 @@
 			],
 			"pillData": null
 		},
+		{
+			"name": "Steamed Taktakun",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#D49D56",
+			"details": [
+				"Another Caronian specialty is taktakun, a seashell dish prepared with no other than water as its main ingredient. Fresh catch of these shells go straight to the pan after it is cleaned.",
+				"According to locals, the best way to eat taktakun’s meat is to pick it with a fork or a toothpick"
+			],
+			"pillData": null
+		},
 	]
 }
