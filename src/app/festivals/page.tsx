@@ -7,7 +7,14 @@ import CardtypeA from '@/components/content/card-type-a';
 import CardHighlight from '@/components/content/card-highlight';
 import Header from '@/components/content/header';
 
-const Festivals = () => {
+import { getData } from '@/lib/get-data';
+import { DataTypes } from '@/types';
+
+const Festivals = async () => {
+	const data = await getData(DataTypes.festivals);
+
+	console.log(data);
+
 	return (
 		<article className="bg-background-200 pb-[500px]">
 			<Header
