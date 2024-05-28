@@ -37,6 +37,7 @@ const Festivals = async () => {
 			highlightsIndex++;
 
 			const regularPostsGroup = [];
+			let effectDelay = 0.1;
 			for (let j = 0; j < 4; j++) {
 				if (regularsIndex < regularsCount) {
 					regularPostsGroup.push(
@@ -46,9 +47,15 @@ const Festivals = async () => {
 							imagePath={data.data.regulars[regularsIndex].image}
 							pill={data.data.regulars[regularsIndex].pillData}
 							key={data.data.regulars[regularsIndex].title}
+							effectDelay={effectDelay}
 						/>
 					);
 					regularsIndex++;
+					effectDelay += 0.1;
+				}
+
+				if (j == 1) {
+					effectDelay = 0.1;
 				}
 			}
 
