@@ -34,5 +34,16 @@
 			],
 			"pillData": null
 		},
+		{
+			"name": "Garyang",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#CFA154",
+			"details": [
+				"Another snack that can also be a dessert, made from cassava. It is cooked in gata, condensed milk, and caramel.",
+				"It can usually be bought at local eateries in the towns of Bato, Bagamanoc, and Panganiban."
+			],
+			"pillData": null
+		},
 	]
 }
