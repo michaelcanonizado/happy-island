@@ -48,17 +48,8 @@ const HeroStickyImage = () => {
 };
 
 const HeroWave = () => {
-	const targetRef = useRef(null);
-
-	const { scrollYProgress } = useScroll({
-		target: targetRef,
-		offset: ['start center', 'start 30%'],
-	});
-
-	const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
-
 	return (
-		<motion.div className="w-full h-[100px] absolute bottom-0 z-20">
+		<motion.div className="w-full h-[100px] absolute bottom-[-5px] z-20">
 			<Image
 				src="/home/wave-1.svg"
 				fill
@@ -83,7 +74,7 @@ const HeroOverlay = () => {
 
 	return (
 		<motion.div
-			className="absolute left-0 top-0 h-[90vh] w-full flex flex-col items-center justify-center text-center text-background-100 z-20 "
+			className="absolute left-0 top-0 h-[90vh] w-full flex flex-col items-center justify-center text-center text-background-100 z-20"
 			style={{ opacity }}
 		>
 			<div className="">
@@ -91,12 +82,12 @@ const HeroOverlay = () => {
 			</div>
 			<div className="">
 				<h1
-					className={`text-8xl font-bold ${bayon.variable} font-display tracking-widest`}
+					className={`font-bold ${bayon.variable} font-display tracking-widest text-6xl sm:text-7xl md:text-8xl`}
 				>
 					CATANDUANES
 				</h1>
 			</div>
-			<div className="max-w-[500px]">
+			<div className="max-w-[500px] px-6">
 				<p className="text-xl leading-6">
 					A charming island province in the Philippines, is located east of
 					the Mainland Bicol area of the Luzon Archipelago. Known for its
