@@ -1,14 +1,12 @@
 'use client';
 
-import React, { useRef } from 'react';
+import React from 'react';
 
 import { screenBreakpoints } from '@/helpers/screen-breakpoints';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 
 import { motion } from 'framer-motion';
-
-import { MapPin, Smile, Wind } from 'lucide-react';
 
 import { Card, CardContent } from '@/components/ui/card';
 import {
