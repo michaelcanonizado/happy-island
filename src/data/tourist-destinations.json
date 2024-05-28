@@ -3,7 +3,7 @@
 	"description": "Catanduanes, often referred to as the \"Happy Island\", is a tropical paradise in the Philippines known for its stunning landscapes, pristine beaches, and warm hospitality. In earlier times, the province was called the \"Land of the Howling Winds\". Situated off the coast of the Bicol Region and facing the Pacific Ocean, which is a common path for typhoons, hence the historical name.",
 	"data": [
 		{
-			"name": "Puraran Beach",
+			"title": "Puraran Beach",
 			"isHighlight": true,
 			"image": "/images/tourist-destinations/puraran-beach.jpg",
 			"color": "#338FE3",
@@ -53,7 +53,7 @@
 			"pillData": "San Andres, Catanduanes"
 		},
     {
-			"name": "Bato Church",
+			"title": "Bato Church",
 			"isHighlight": true,
 			"image": "/images/tourist-destinations/bato-church.jpg",
 			"color": "#8DA940",
