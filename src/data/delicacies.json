@@ -77,6 +77,17 @@
 				"According to locals, the best way to eat taktakun’s meat is to pick it with a fork or a toothpick"
 			],
 			"pillData": null
-		}
+		},
+		{
+			"name": "Stir Fried Bagisara",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Bagisara (river clams) is a typically cooked Cataduanon viand cooked in garlic, ginger, and onions. Local says that adding salt to this dish is no longer needed because its juice and meat is tasty enough",
+				"These clams are usually caught in brackish bodies of water in the town of San Miguel"
+			],
+			"pillData": null
+		},                       
 	]
 }
