@@ -10,15 +10,26 @@ import {
 	CardHeader,
 	CardTitle,
 } from '@/components/ui/card';
+import { cn } from '@/lib/utils';
 
-const CardTypeB = () => {
+const CardTypeB = ({
+	className,
+	imagePath,
+	title,
+	description,
+}: {
+	className?: string;
+	imagePath: string;
+	title: string;
+	description: string[];
+}) => {
 	return (
-		<Card className="bg-transparent border-none">
+		<Card className={cn('bg-transparent border-none', className)}>
 			<div className="bg-transparent h-[200px] relative">
 				<div className="absolute z-10 bottom-[-50%] translate-x-[50%] w-[50%] aspect-square rounded-md overflow-hidden">
 					<Image
-						src="/images/delicacies/dawa.png"
-						alt="Test Image"
+						src={imagePath}
+						alt={title}
 						fill
 						style={{
 							objectFit: 'cover',
@@ -32,15 +43,12 @@ const CardTypeB = () => {
 					<CardTitle
 						className={`${bayon.variable} text-foreground font-display tracking-widest text-2xl`}
 					>
-						DAWA
+						{title}
 					</CardTitle>
 				</CardHeader>
 				<CardContent className="pt-0 px-0 ">
 					<CardDescription className="text-lg">
-						Dawa is a seasonal delicacy and the number one product of the
-						town of Bote. It&apos;’s sandy-textured kakanin made from
-						millets, a type of grain that grows abundantly from March to
-						April. Dawa cake and cookies are among its variations
+						{description}
 					</CardDescription>
 				</CardContent>
 			</div>
