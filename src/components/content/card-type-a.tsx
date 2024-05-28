@@ -22,8 +22,8 @@ const CardtypeA = ({
 	className?: string;
 	imagePath: string;
 	title: string;
-	description: string;
-	pill?: string;
+	description: string[];
+	pill?: string | null;
 }) => {
 	return (
 		<Card

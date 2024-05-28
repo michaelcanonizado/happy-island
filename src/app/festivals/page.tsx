@@ -15,24 +15,116 @@ const Festivals = async () => {
 
 	console.log(data);
 
+	const renderFestivalSequence = () => {
+		const postsSequence = [];
+
+		const highlightsCount = data.data.highlights.length;
+		const regularsCount = data.data.regulars.length;
+		const minCount = Math.min(highlightsCount, Math.ceil(regularsCount / 4));
+
+		let highlightsIndex = 0;
+		let regularsIndex = 0;
+
+		for (let i = 0; i < minCount; i++) {
+			if (highlightsIndex < highlightsCount) {
+				postsSequence.push(
+					<CardHighlight
+						title={data.data.highlights[highlightsIndex].title}
+						description={data.data.highlights[highlightsIndex].details}
+						imagePath={data.data.highlights[highlightsIndex].image}
+						pill={data.data.highlights[highlightsIndex].pillData}
+						key={data.data.highlights[highlightsIndex].title}
+					/>
+				);
+			}
+			highlightsIndex++;
+
+			const regularPostsGroup = [];
+			for (let j = 0; j < 4; j++) {
+				if (regularsIndex < regularsCount) {
+					regularPostsGroup.push(
+						<CardtypeA
+							title={data.data.regulars[regularsIndex].title}
+							description={data.data.regulars[regularsIndex].details}
+							imagePath={data.data.regulars[regularsIndex].image}
+							pill={data.data.regulars[regularsIndex].pillData}
+							key={data.data.regulars[regularsIndex].title}
+						/>
+					);
+					regularsIndex++;
+				}
+			}
+
+			if (regularPostsGroup.length > 0) {
+				postsSequence.push(
+					<div
+						className={cn(
+							'w-full mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6',
+							screenBreakpoints
+						)}
+						key={regularsIndex}
+					>
+						{regularPostsGroup}
+					</div>
+				);
+			}
+		}
+
+		while (highlightsIndex < highlightsCount) {
+			postsSequence.push(
+				<CardHighlight
+					title={data.data.highlights[highlightsIndex].title}
+					description={data.data.highlights[highlightsIndex].details}
+					imagePath={data.data.highlights[highlightsIndex].image}
+					pill={data.data.highlights[highlightsIndex].pillData}
+					key={data.data.highlights[highlightsIndex].title}
+				/>
+			);
+			highlightsIndex++;
+		}
+
+		if (regularsIndex < regularsCount) {
+			const regularPostsGroup = [];
+			while (regularsIndex < regularsCount) {
+				if (regularsIndex < regularsCount) {
+					regularPostsGroup.push(
+						<CardtypeA
+							title={data.data.regulars[regularsIndex].title}
+							description={data.data.regulars[regularsIndex].details}
+							imagePath={data.data.regulars[regularsIndex].image}
+							pill={data.data.regulars[regularsIndex].pillData}
+							key={data.data.regulars[regularsIndex].title}
+						/>
+					);
+					regularsIndex++;
+				}
+			}
+
+			postsSequence.push(
+				<div
+					className={cn(
+						'w-full mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6',
+						screenBreakpoints
+					)}
+					key={regularsIndex}
+				>
+					{regularPostsGroup}
+				</div>
+			);
+		}
+
+		return postsSequence;
+	};
+
 	return (
 		<article className="bg-background-200 pb-[500px]">
 			<Header
 				className="mb-14"
-				title="Festivals"
-				description='Each town in Catanduanes holds an annual "fiesta." Key
-					events during this celebration include a town parade, vesper
-					night, an official ball, a concelebrated mass to honor the
-					town&apos;s patron saint, and an agricultural fair. The parade,
-					typically featuring municipal employees and officials, local
-					government units, barangay officials, and various schools with
-					their drum and bugle corps, takes place in the town center. Other
-					popular activities include "perya" (a game of chance
-					involving coins and prizes) and "sitsiriya" (temporary
-					stores set up only during the fiesta).'
+				title={data.title}
+				description={data.description}
 			/>
 			<div className="flex flex-col gap-14">
-				<CardHighlight />
+				{/* <CardHighlight />
 				<div
 					className={cn(
 						'w-full mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6',
@@ -43,19 +135,8 @@ const Festivals = async () => {
 					<CardtypeA />
 					<CardtypeA />
 					<CardtypeA />
-				</div>
-				<CardHighlight />
-				<div
-					className={cn(
-						'w-full mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6',
-						screenBreakpoints
-					)}
-				>
-					<CardtypeA />
-					<CardtypeA />
-					<CardtypeA />
-					<CardtypeA />
-				</div>
+				</div> */}
+				{renderFestivalSequence()}
 			</div>
 		</article>
 	);

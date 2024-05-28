@@ -10,14 +10,14 @@ export type Data = {
 	description: string;
 	data: {
 		highlights: {
-			name: string;
+			title: string;
 			isHighlight: true;
 			image: 'string';
 			details: string[];
 			pillData: string | null;
 		}[];
 		regulars: {
-			name: string;
+			title: string;
 			isHighlight: false;
 			image: 'string';
 			details: string[];
