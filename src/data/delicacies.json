@@ -129,6 +129,16 @@
 				"The town of Panganiban, dubbed as the “Crab Capital” of the island, celebrates the Kinis Festival every July"
 			],
 			"pillData": null
-		},             
+		},
+		{
+			"name": "Rice Brew",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Those who love coffee must try this antioxidant made from roasted rive. It is a healthy alternative to ordinary coffee granules. There’s no caffeine ingredient but it has a strong taste as well."
+			],
+			"pillData": null
+		},          
 	]
 }
