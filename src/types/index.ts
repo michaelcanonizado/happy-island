@@ -13,4 +13,5 @@ export type Instance = {
 	image: string;
 	details: string[];
 	pillData: string | null;
+	color: string;
 };
