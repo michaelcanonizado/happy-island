@@ -13,7 +13,19 @@ import {
 	CardTitle,
 } from '@/components/ui/card';
 
-const CardHighlight = ({ className }: { className?: string }) => {
+const CardHighlight = ({
+	className,
+	imagePath,
+	title,
+	description,
+	pill,
+}: {
+	className?: string;
+	imagePath: string;
+	title: string;
+	description: string;
+	pill?: string;
+}) => {
 	return (
 		<section
 			className={cn(
@@ -23,8 +35,8 @@ const CardHighlight = ({ className }: { className?: string }) => {
 		>
 			<Card className="relative w-full min-h-[500px] rounded-none xl:rounded-xl overflow-hidden border-none">
 				<Image
-					src="/images/test.jpg"
-					alt="Test Image"
+					src={imagePath}
+					alt={title}
 					fill
 					style={{
 						objectFit: 'cover',
@@ -37,28 +49,23 @@ const CardHighlight = ({ className }: { className?: string }) => {
 						<CardTitle
 							className={`${bayon.variable} text-background-100 font-display tracking-widest text-4xl`}
 						>
-							Abaca Festival
+							{title}
 						</CardTitle>
 					</CardHeader>
 					<CardContent className="p-0 mt-4 md:w-[70%]">
 						<CardDescription className="text-background-100 text-lg">
-							Bato, one of Catanduanes&apos; eleven municipalities, is
-							graced with natural beauty and agricultural prosperity.
-							However, over time, it faced challenges from natural
-							disasters. Despite devastation and hardship, the
-							townspeople held onto hope. Through devotion to its
-							patron saint, St. John the Baptist, Bato received renewed
-							abundance and blessings. Abaca emerged as a key industry,
-							while cacao added sweetness to meals. Its agricultural
-							wealth, nourished by St. John&apos;s rains, yields
-							bountiful harvests.
+							{description}
 						</CardDescription>
 					</CardContent>
-					<div className="w-fit bg-yellow-primary rounded-full py-1 px-3 my-4">
+					<div
+						className={`w-fit bg-yellow-primary rounded-full py-1 px-3 my-4 ${
+							!pill ? 'hidden' : 'flex'
+						}`}
+					>
 						<p
 							className={`text-background-100 ${bayon.variable} text-background-100 font-display tracking-widest text-base`}
 						>
-							JUNE 23-24
+							{pill}
 						</p>
 					</div>
 				</div>
