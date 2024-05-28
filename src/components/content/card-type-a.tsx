@@ -23,6 +23,7 @@ const CardtypeA = ({
 	description,
 	pill,
 	effectDelay,
+	color
 }: {
 	className?: string;
 	imagePath: string;
@@ -30,6 +31,7 @@ const CardtypeA = ({
 	description: string[];
 	pill?: string | null;
 	effectDelay: number;
+	color: string,
 }) => {
 	const cardVariants = {
 		hidden: {
@@ -55,9 +57,12 @@ const CardtypeA = ({
 		>
 			<Card
 				className={cn(
-					'bg-background-100 rounded-xl overflow-hidden p-4 shadow border-b-[20px] border-x-0 border-t-0 border-yellow-primary h-full',
+					'bg-background-100 rounded-xl overflow-hidden p-4 shadow border-b-[20px] border-x-0 border-t-0 h-full',
 					className
 				)}
+				style={{
+					borderColor: color
+				}}
 			>
 				<div className="relative">
 					<div className="relative w-full aspect-square rounded-md overflow-hidden">
@@ -73,9 +78,12 @@ const CardtypeA = ({
 					</div>
 
 					<div
-						className={`absolute bottom-[-15px] right-[15px] z-10 bg-yellow-primary rounded-full py-1 px-3 ${
+						className={`absolute bottom-[-15px] right-[15px] z-10 rounded-full py-1 px-3 ${
 							!pill ? 'hidden' : ''
 						}`}
+						style={{
+							backgroundColor: color
+						}}
 					>
 						<p
 							className={`text-background-100 ${bayon.variable} text-background-100 font-display tracking-widest text-sm`}

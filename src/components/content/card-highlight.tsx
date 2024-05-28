@@ -19,12 +19,14 @@ const CardHighlight = ({
 	title,
 	description,
 	pill,
+	color
 }: {
 	className?: string;
 	imagePath: string;
 	title: string;
 	description: string[];
 	pill?: string | null;
+	color: string
 }) => {
 	return (
 		<section
@@ -58,9 +60,12 @@ const CardHighlight = ({
 						</CardDescription>
 					</CardContent>
 					<div
-						className={`w-fit bg-yellow-primary rounded-full py-1 px-3 my-4 ${
+						className={`w-fit rounded-full py-1 px-3 my-4 ${
 							!pill ? 'hidden' : 'flex'
 						}`}
+						style={{
+							backgroundColor: color
+						}}
 					>
 						<p
 							className={`text-background-100 ${bayon.variable} text-background-100 font-display tracking-widest text-base`}

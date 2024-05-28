@@ -31,6 +31,7 @@ const Festivals = async () => {
 						imagePath={data.data.highlights[highlightsIndex].image}
 						pill={data.data.highlights[highlightsIndex].pillData}
 						key={data.data.highlights[highlightsIndex].title}
+						color={data.data.highlights[highlightsIndex].color}
 					/>
 				);
 			}
@@ -48,6 +49,7 @@ const Festivals = async () => {
 							pill={data.data.regulars[regularsIndex].pillData}
 							key={data.data.regulars[regularsIndex].title}
 							effectDelay={effectDelay}
+							color={data.data.regulars[regularsIndex].color}
 						/>
 					);
 					regularsIndex++;
@@ -82,6 +84,7 @@ const Festivals = async () => {
 					imagePath={data.data.highlights[highlightsIndex].image}
 					pill={data.data.highlights[highlightsIndex].pillData}
 					key={data.data.highlights[highlightsIndex].title}
+					color={data.data.highlights[highlightsIndex].color}
 				/>
 			);
 			highlightsIndex++;
@@ -99,6 +102,7 @@ const Festivals = async () => {
 							pill={data.data.regulars[regularsIndex].pillData}
 							key={data.data.regulars[regularsIndex].title}
 							effectDelay={0.1}
+							color={data.data.regulars[regularsIndex].color}
 						/>
 					);
 					regularsIndex++;
@@ -129,18 +133,6 @@ const Festivals = async () => {
 				description={data.description}
 			/>
 			<div className="flex flex-col gap-14">
-				{/* <CardHighlight />
-				<div
-					className={cn(
-						'w-full mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6',
-						screenBreakpoints
-					)}
-				>
-					<CardtypeA />
-					<CardtypeA />
-					<CardtypeA />
-					<CardtypeA />
-				</div> */}
 				{renderFestivalSequence()}
 			</div>
 		</article>
