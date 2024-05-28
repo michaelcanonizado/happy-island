@@ -56,5 +56,16 @@
 			],
 			"pillData": null
 		},
+		{
+			"name": "Ginataang Tabagwang sa Pako",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Tabagwang is the local term for kuhol (freshwater snails). It is usually done in coconut milk with fern leaves.",
+				"This dish is considered to be exotic because it's supposed to be eaten with bare hands. The snail meat must be slurped straight from its shell."
+			],
+			"pillData": null
+		},
 	]
 }
