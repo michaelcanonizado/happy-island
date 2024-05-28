@@ -4,20 +4,40 @@
 
 	"data": [
 		{
-			"title": "Catandungan Festival",
+			"title": "Abaca Festival",
 			"isHighlight": true,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
+			"image": "/images/festivals/abaca.jpeg",
+			"color": "#53578B",
+			"details": [
+				"Bato, one of Catanduanes' eleven municipalities, is graced with natural beauty and agricultural prosperity. However, over time, it faced challenges from natural disasters. Despite devastation and hardship, the townspeople held onto hope. Through devotion to its patron saint, St. John the Baptist, Bato received renewed abundance and blessings. Abaca emerged as a key industry, while cacao added sweetness to meals.  Its agricultural wealth, nourished by St. John's rains, yields bountiful harvests."
+			],
+			"pillData": "June 23-24"
+		},
+		{
+			"title": "Catandungan Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/catandungan.jpg",
+			"color": "#9473C9",
 			"details": [
 				"The provincial festival, held during the third week of October, marks the founding anniversary of Catanduanes as an independent province separate from Albay. This annual event features a range of special activities, including a surfing competition, a pantomina street dance, a beauty pageant, an agricultural and trade fair, a sportsfest, guided tours, and photo exhibits."
 			],
 			"pillData": "3rd week of October"
 		},
 		{
+			"title": "Kinis Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/kinis.jpg",
+			"color": "#22543E",
+			"details": [
+				"Panganiban, a peaceful and bountiful town, lies northwest of Bagamanoc and southeast of Viga. Known as the \"Kinis\" Capital of Catanduanes, it boasts 218.47 hectares of fishponds and vast mangrove areas that produce a plentiful supply of tasty mud crabs. The \"Kinis\" Festival showcases Panganiban's main product and promotes the town as the crab capital of the province. Highlights include a float parade featuring the crab princess, exotic street dancing in crab costumes, and an eat-all-you-can seafood menu, especially steamed or cooked crab."
+			],
+			"pillData": "July 25"
+		},
+		{
 			"title": "Kagharong Festival",
 			"isHighlight": false,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
+			"image": "/images/festivals/kagharong.jpg",
+			"color": "#FD9732",
 			"details": [
 				"This event is observed throughout the province on December 24th. It is a folk-religious portrayal of a Christmas custom. It revolves around reenacting the challenges faced by Joseph and Mary as they sought shelter in Bethlehem. The reenactment involves singing, depicting their journey from one house to another in search of accommodation. The host, known as Kagharong, symbolically welcomes them by shaking hands with the leader and offering donations during the enactment."
 			],
@@ -26,8 +46,8 @@
 		{
 			"title": "Manok-Manok Festival",
 			"isHighlight": false,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
+			"image": "/images/festivals/manokmanok.jpg",
+			"color": "#E92F47",
 			"details": [
 				"The Manok-manok festival, celebrated during each town fiesta, is a tribute to the Bagamanocnon character, culture, and way of life, focusing on the unique aspects of \"manok\" (chicken), which inspired the name of the municipality. The festival features street dancing that showcases the distinctive characteristics and movements of chickens.",
 				" Initially, Bagamanoc was unnamed, untouched by human presence. Its sandy grounds were home to various fierce quadrupeds and wild birds. The landscape was adorned with ancient, towering trees intertwined with thorny vines, hosting multicolored birds that nested and fed on the fruits of these trees."
@@ -36,69 +56,59 @@
 		},
 		{
 			"title": "Badas Festival",
-			"isHighlight": false,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
+			"isHighlight": true,
+			"image": "/images/festivals/badas.jpg",
+			"color": "#487015",
 			"details": [
 				"The festival reflects the heroic nature of the people of Baras. The term \"Badas,\" which refers to wild rattan, was historically fashioned into spears to defend against Moro raiders, symbolizing the resilient spirit of the Barasnons. During wartime, they were the first in Catanduanes to resist the invading Japanese forces. Today, the people of Baras continue to exhibit courage amidst life's challenges, symbolized by the majestic yet unpredictable waves of Puraran. They are strong yet adaptable, embodying both beauty and bravery. \"Badas\" encapsulates the historical evolution of Bicolandia's surfing capital."
 			],
 			"pillData": "August 10"
 		},
 		{
-			"title": "Abaca Festival",
-			"isHighlight": false,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
-			"details": [
-				"Bato, one of Catanduanes' eleven municipalities, is graced with natural beauty and agricultural prosperity. However, over time, it faced challenges from natural disasters. Despite devastation and hardship, the townspeople held onto hope. Through devotion to its patron saint, St. John the Baptist, Bato received renewed abundance and blessings. Abaca emerged as a key industry, while cacao added sweetness to meals.  Its agricultural wealth, nourished by St. John's rains, yields bountiful harvests."
-			],
-			"pillData": "June 23-24"
-		},
-		{
 			"title": "Sugbo Festival",
-			"isHighlight": true,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
+			"isHighlight": false,
+			"image": "/images/festivals/sugbo.jpg",
+			"color": "#917727",
 			"details": [
 				"Recognizing the potential of the \"sugbo\" or \"lasa\" (tiger grass) industry and the challenges it faces, a group of civic-minded individuals proposed a festival to celebrate the fiesta of Our Lady of Salvation in Barangay Hitoma. This festival would showcase their primary source of income. The concept for the Sugbo Festival emerged after Typhoon Dindo struck the barangay fiesta in 2004, with the festival officially commencing in May 2005."
 			],
 			"pillData": null
 		},
 		{
-			"title": "Umasilhag Festival of Gigmoto",
-			"isHighlight": false,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
-			"details": [
-				"In the eastern seaboard of Catanduanes lies the paradise town of Gigmoto, known for its finest abaca and abundant harvests. The sparkling rivers and seas offer rich aquatic resources. The hardworking and God-fearing people rely on farming, fishing, and abaca stripping for their livelihood. Inspired by bountiful harvests and blessings, they celebrate UMASILHAG, an annual feast honoring their patron, St. Isidore the Farmer. UMASILHAG is a festival of merrymaking and thanksgiving!"
-			],
-			"pillData": "May 14-15"
-		},
-		{
 			"title": "Dinahit Festival",
 			"isHighlight": false,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
+			"image": "/images/festivals/dinahit.jpg",
+			"color": "#6A231E",
 			"details": [
 				"The annual summer festival of the Pandanganons began in 1993, founded by UP Professor Efren B. Isorena. The festival commemorates the town's history, tracing back to the arrival of Austronesian people in \"Dinahit\" sailing vessels. Named after the wind-driven vessel \"Dinahit,\" which navigated challenging waters and winds, the festival symbolizes resilience amidst technological and cultural changes. Pandananons, masters of survival, work tirelessly to provide for their families, venturing into deep waters with unwavering determination and resilience."
 			],
 			"pillData": "After Easter Sunday"
 		},
 		{
-			"title": "Kinis Festival",
+			"title": "Umasilhag Festival of Gigmoto",
 			"isHighlight": false,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
+			"image": "/images/festivals/umasilhag.jpg",
+			"color": "#459F7D",
 			"details": [
-				"Panganiban, a peaceful and bountiful town, lies northwest of Bagamanoc and southeast of Viga. Known as the \"Kinis\" Capital of Catanduanes, it boasts 218.47 hectares of fishponds and vast mangrove areas that produce a plentiful supply of tasty mud crabs. The \"Kinis\" Festival showcases Panganiban's main product and promotes the town as the crab capital of the province. Highlights include a float parade featuring the crab princess, exotic street dancing in crab costumes, and an eat-all-you-can seafood menu, especially steamed or cooked crab."
+				"In the eastern seaboard of Catanduanes lies the paradise town of Gigmoto, known for its finest abaca and abundant harvests. The sparkling rivers and seas offer rich aquatic resources. The hardworking and God-fearing people rely on farming, fishing, and abaca stripping for their livelihood. Inspired by bountiful harvests and blessings, they celebrate UMASILHAG, an annual feast honoring their patron, St. Isidore the Farmer. UMASILHAG is a festival of merrymaking and thanksgiving!"
 			],
-			"pillData": "July 25"
+			"pillData": "May 14-15"
+		},
+		{
+			"title": "Burak Festival",
+			"isHighlight": false,
+			"image": "/images/festivals/burak.jpg",
+			"color": "#0052C3",
+			"details": [
+				"Virac is believed to be named after \"BURAC,\" meaning flower. Early settlers sustained themselves by farming its fertile lands and fishing its rich waters. The town has faced nature’s challenges, especially typhoons, testing the people’s resilience, strength, determination, resourcefulness, and religiosity. The Burac Festival honors their patroness, Nuestra Señora de la Immaculada Conception, and to express gratitude for her blessings and guidance, the Burac Festival was created. "
+			],
+			"pillData": "December 8"
 		},
 		{
 			"title": "Burunyogan Festival",
-			"isHighlight": false,
-			"image": "/images/festivals/abaca.jpg",
-			"color": "",
+			"isHighlight": true,
+			"image": "/images/festivals/burunyogan.jpg",
+			"color": "#724B04",
 			"details": [
 				"\"Burunyog\" is an old Bikolano word meaning united. Combined with “Niyog” (coconut), it forms “Buruniyogan,” a unique celebration highlighting the benefits of coconuts. The festival is inspired by the unity of Our Lady of Sorrows of Batong Paloway and St. Andrew the Apostle. \"Niyog,\" the tree of life, brings us together in San Andres, Catanduanes, showcasing the town’s offerings."
 			],
