@@ -65,6 +65,7 @@ const BentoHeader = () => {
 				className="absolute inset-0 mb-4"
 				initial={{ y: 100 }}
 				whileInView={{ y: 0 }}
+				viewport={{ once: true }}
 			>
 				<Image
 					src="/home/catanduanes-official-seal.png"
@@ -80,6 +81,7 @@ const BentoHeader = () => {
 				className="absolute bottom-0 w-full pt-[50px] flex justify-center bg-gradient-to-t from-background-200  to-transparent"
 				initial={{ y: 100 }}
 				whileInView={{ y: 0 }}
+				viewport={{ once: true }}
 			>
 				<h2
 					className={`text-5xl font-semibold ${bayon.variable} font-display tracking-wider`}
@@ -100,6 +102,7 @@ const BentoGrid = () => {
 				initial="hidden"
 				whileInView="visible"
 				whileHover="hover"
+				viewport={{ once: true }}
 				transition={{
 					type: 'spring',
 					ease: 'linear',
@@ -122,6 +125,7 @@ const BentoGrid = () => {
 				initial="hidden"
 				whileInView="visible"
 				whileHover="hover"
+				viewport={{ once: true }}
 				transition={{
 					type: 'spring',
 					y: { delay: 0.15 },
@@ -142,6 +146,7 @@ const BentoGrid = () => {
 				initial="hidden"
 				whileInView="visible"
 				whileHover="hover"
+				viewport={{ once: true }}
 				transition={{
 					type: 'spring',
 					y: { delay: 0.25 },
@@ -162,6 +167,7 @@ const BentoGrid = () => {
 				initial="hidden"
 				whileInView="visible"
 				whileHover="hover"
+				viewport={{ once: true }}
 				transition={{
 					type: 'spring',
 					y: { delay: 0.35 },

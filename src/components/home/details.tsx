@@ -54,6 +54,7 @@ const DetailsTextGroup = () => {
 				variants={bentoGridVariants}
 				initial="hidden"
 				whileInView="visible"
+				viewport={{ once: true }}
 			>
 				<h2
 					className={`text-4xl sm:text-4xl md:text-5xl font-semibold ${bayon.variable} font-display tracking-wider`}
@@ -86,6 +87,7 @@ const DetailsText = ({ text, iconPath }: { text: string; iconPath: string }) => 
 			variants={bentoGridVariants}
 			initial="hidden"
 			whileInView="visible"
+			viewport={{ once: true }}
 		>
 			<div className="relative flex justify-center items-center whitespace-nowrap min-w-[35px] xs:min-w-[40px] sm:min-w-[50px]">
 				<Image src={iconPath} width={40} height={40} alt="Icon" />
