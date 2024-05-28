@@ -45,5 +45,16 @@
 			],
 			"pillData": null
 		},
+		{
+			"name": "Steamed Tabugok",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#EC8B28",
+			"details": [
+				"Tabugok is ta sea-to-table dish made from red baby octopuses. This Carorian specialty gets tenderized and cooked by its natural juice.",
+				"But this dish is only served as part of the island hopping adventure of Caronian Wonders"
+			],
+			"pillData": null
+		},
 	]
 }
