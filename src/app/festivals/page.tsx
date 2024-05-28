@@ -98,6 +98,7 @@ const Festivals = async () => {
 							imagePath={data.data.regulars[regularsIndex].image}
 							pill={data.data.regulars[regularsIndex].pillData}
 							key={data.data.regulars[regularsIndex].title}
+							effectDelay={0.1}
 						/>
 					);
 					regularsIndex++;
