@@ -118,6 +118,17 @@
 				"One of the most abundant seafoods in the province are lobsters. It can be an expensive dish in other parts of the country, especially in the metro. But in Catanduanes, it is more affordable because it’s considered as a staple food."
 			],
 			"pillData": null
+		},
+		{
+			"name": "Ginataang Kinis",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"While kinis or mud crabs can already be eaten steamed, a must-try dish is the ginataang kinis. Ensaladang pako goes well with this viand.",
+				"The town of Panganiban, dubbed as the “Crab Capital” of the island, celebrates the Kinis Festival every July"
+			],
+			"pillData": null
 		},             
 	]
 }
