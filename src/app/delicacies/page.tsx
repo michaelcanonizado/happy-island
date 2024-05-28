@@ -50,14 +50,14 @@ const Delicacies = async () => {
 			/>
 			<div
 				className={cn(
-					'px-4 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full mx-auto',
+					'px-4 flex flex-col sm:flex-row gap-6 w-full mx-auto',
 					screenBreakpoints
 				)}
 			>
-				<div className="grid grid-cols-1 mt-[30%] gap-6">
+				<div className="grid grid-cols-1 pt-[30%] gap-6 md:auto-rows-[800px] lg:auto-rows-[650px] w-full sm:w-1/2">
 					{renderFirstHalfSequence()}
 				</div>
-				<div className="grid grid-cols-1 gap-6">
+				<div className="grid grid-cols- gap-6 md:auto-rows-[800px] lg:auto-rows-[650px] w-full sm:w-1/2">
 					{renderSecondHalfSequence()}
 				</div>
 			</div>
