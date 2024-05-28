@@ -23,6 +23,16 @@
 				"Dawa is a seasonal delicacy and the number one product of the town of Bote. It’s sandy-textured kakanin made from millets, a type of grain that grows abundantly from March to April. Dawa cake and cookies are among its variations."
 			],
 			"pillData": null
-		}
+		},
+		{
+			"name": "Kaluko",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#5A6B3D",
+			"details": [
+				"A snack made from gabi (taro root). It has a filling made from grated tara and young coconut meat cooked in gata(coconut milk). It is best eaten with cheese toppings or caramelized sugar dip."
+			],
+			"pillData": null
+		},
 	]
 }
