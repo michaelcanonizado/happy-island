@@ -61,94 +61,6 @@ const BentoHeader = () => {
 			ref={targetRef}
 			className="flex flex-col items-center relative w-full h-[220px] mb-12"
 		>
-			{/* <div className=" absolute inset-0 ">
-				<motion.div
-					className="h-[300px] w-[200px] 
-
-                absolute
-                left-[50%]
-                translate-y-[-50px]
-                rotate-[60deg]"
-					initial={{ scale: 0 }}
-					whileInView={{ scale: 1, rotate: 60 }}
-					transition={{
-						ease: 'linear',
-					}}
-				>
-					<Image
-						src="/home/abaca-leaf-1.png"
-						fill
-						alt="Abaca leaves"
-						style={{
-							objectFit: 'contain',
-							objectPosition: 'center',
-						}}
-					/>
-				</motion.div>
-				<motion.div initial={{ y: 100 }} whileInView={{ y: 0 }}>
-					<div
-						className="h-[300px] w-[200px] 
-
-                absolute
-                scale-x-[-1]
-                right-[50%]
-                translate-y-[-50px]
-                rotate-[300deg]"
-					>
-						<Image
-							src="/home/abaca-leaf-1.png"
-							fill
-							alt="Abaca leaves"
-							style={{
-								objectFit: 'contain',
-								objectPosition: 'center',
-							}}
-						/>
-					</div>
-				</motion.div>
-				<motion.div initial={{ y: 100 }} whileInView={{ y: 0 }}>
-					<div
-						className="h-[300px] w-[200px] 
-                    
-                    absolute
-                    scale-x-[-1]
-                    right-[49%]
-                    translate-y-[-110px]
-                    rotate-[320deg]"
-					>
-						<Image
-							src="/home/abaca-leaf-1.png"
-							fill
-							alt="Abaca leaves"
-							style={{
-								objectFit: 'contain',
-								objectPosition: 'center',
-							}}
-						/>
-					</div>
-				</motion.div>
-				<motion.div initial={{ y: 100 }} whileInView={{ y: 0 }}>
-					<div
-						className="h-[300px] w-[200px] 
-                    
-                    absolute
-                    left-[49%]
-                    translate-y-[-110px]
-                    rotate-[40deg]"
-					>
-						<Image
-							src="/home/abaca-leaf-1.png"
-							fill
-							alt="Abaca leaves"
-							style={{
-								objectFit: 'contain',
-								objectPosition: 'center',
-							}}
-						/>
-					</div>
-				</motion.div>
-			</div> */}
-
 			<motion.div
 				className="absolute inset-0 mb-4"
 				initial={{ y: 100 }}
@@ -181,10 +93,9 @@ const BentoHeader = () => {
 
 const BentoGrid = () => {
 	return (
-		<div className="w-full h-[500px] grid grid-cols-10 grid-rows-2 gap-4 text-background">
+		<div className="w-full h-[500px] grid grid-cols-10 grid-rows-auto gap-4 text-background">
 			<motion.div
-				className="relative
-		e bg-yellow-primary col-span-6 rounded-xl"
+				className="relative bg-yellow-primary rounded-xl col-span-10 sm:col-span-6"
 				variants={bentoGridVariants}
 				initial="hidden"
 				whileInView="visible"
@@ -206,7 +117,7 @@ const BentoGrid = () => {
 				</Link>
 			</motion.div>
 			<motion.div
-				className="relative bg-red-primary col-span-4 rounded-xl"
+				className="relative bg-red-primary rounded-xl col-span-10 sm:col-span-4"
 				variants={bentoGridVariants}
 				initial="hidden"
 				whileInView="visible"
@@ -226,7 +137,7 @@ const BentoGrid = () => {
 				</Link>
 			</motion.div>
 			<motion.div
-				className="relative bg-blue-primary col-span-4 rounded-xl"
+				className="relative bg-blue-primary rounded-xl col-span-10 sm:col-span-4"
 				variants={bentoGridVariants}
 				initial="hidden"
 				whileInView="visible"
@@ -246,7 +157,7 @@ const BentoGrid = () => {
 				</Link>
 			</motion.div>
 			<motion.div
-				className="relative bg-green-primary col-span-6 rounded-xl"
+				className="relative bg-green-primary rounded-xl col-span-10 sm:col-span-6"
 				variants={bentoGridVariants}
 				initial="hidden"
 				whileInView="visible"
