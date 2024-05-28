@@ -30,31 +30,7 @@ const Details = () => {
 			<section className="grid lg:grid-cols-2 gap-10">
 				<DetailsTextGroup />
 				<div className="px-12">
-					<Carousel className="w-full">
-						<CarouselContent>
-							{imagePaths.map((path, index) => (
-								<CarouselItem className="" key={index}>
-									<div className="p-1">
-										<Card className="rounded-xl overflow-hidden">
-											<CardContent className="flex aspect-square items-center justify-center p-6 relative">
-												<Image
-													src={path}
-													fill
-													alt="Catanduanes"
-													style={{
-														objectFit: 'cover',
-														objectPosition: 'center',
-													}}
-												/>
-											</CardContent>
-										</Card>
-									</div>
-								</CarouselItem>
-							))}
-						</CarouselContent>
-						<CarouselPrevious />
-						<CarouselNext />
-					</Carousel>
+					<DetailsImageCarousel/>
 				</div>
 			</section>
 		</div>
@@ -120,5 +96,36 @@ const DetailsText = ({ text, iconPath }: { text: string; iconPath: string }) => 
 		</motion.div>
 	);
 };
+
+const DetailsImageCarousel = ()=> {
+	return (
+	<Carousel className="w-full">
+		<CarouselContent>
+			{imagePaths.map((path, index) => (
+				<CarouselItem className="" key={index}>
+					<div className="p-1">
+						<Card className="rounded-xl overflow-hidden">
+							<CardContent className="flex aspect-square items-center justify-center p-6 relative">
+								<Image
+									src={path}
+									fill
+									alt="Catanduanes"
+									style={{
+										objectFit: 'cover',
+										objectPosition: 'center',
+									}}
+								/>
+							</CardContent>
+						</Card>
+					</div>
+				</CarouselItem>
+				))
+			}
+				</CarouselContent>
+			<CarouselPrevious />
+		<CarouselNext />
+	</Carousel>
+	)
+}
 
 export default Details;
