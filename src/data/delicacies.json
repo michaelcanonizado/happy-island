@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "title": "delicacies",
     "description": "add description here",
     "data": [
@@ -137,4 +138,158 @@
             ]
         }
     ]
+=======
+	"title": "DELICACIES",
+	"description": "One thing everyone should know about the Catanduanons is that they are natural-born cooks. It's second nature to them to innovate and add twist to ordinary dishes. Add to that the abundance of crops and seafood in Catanduanes and you get a foodventure waiting to be experienced. A vacation is never complete without a gastronomic adventure in the itinerary.",
+	"data": [
+		{
+			"name": "Latik",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#776A01",
+			"details": [
+				"Reserved for special occasions, this snack food and dessert is steamed rice cake topped with coconut syrup locals call bañar, Spanish term for bathe or to pour syrup on.",
+				"its original meaning is the residue from coconut milk when heated until it releases its natural oil. These solid bits turned brown like roast crumbs, then separated from oil, to be used as topping. In Albay, it’s called lunok.",
+				"The suman (rice cake which is now called latik itself) is greenish from the addition of moringga liquid."
+			],
+			"pillData": null
+		},
+		{
+			"name": "Dawa",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#AC8122",
+			"details": [
+				"Dawa is a seasonal delicacy and the number one product of the town of Bote. It’s sandy-textured kakanin made from millets, a type of grain that grows abundantly from March to April. Dawa cake and cookies are among its variations."
+			],
+			"pillData": null
+		},
+		{
+			"name": "Kaluko",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#5A6B3D",
+			"details": [
+				"A snack made from gabi (taro root). It has a filling made from grated tara and young coconut meat cooked in gata(coconut milk). It is best eaten with cheese toppings or caramelized sugar dip."
+			],
+			"pillData": null
+		},
+		{
+			"name": "Garyang",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#CFA154",
+			"details": [
+				"Another snack that can also be a dessert, made from cassava. It is cooked in gata, condensed milk, and caramel.",
+				"It can usually be bought at local eateries in the towns of Bato, Bagamanoc, and Panganiban."
+			],
+			"pillData": null
+		},
+		{
+			"name": "Steamed Tabugok",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#EC8B28",
+			"details": [
+				"Tabugok is ta sea-to-table dish made from red baby octopuses. This Carorian specialty gets tenderized and cooked by its natural juice.",
+				"But this dish is only served as part of the island hopping adventure of Caronian Wonders"
+			],
+			"pillData": null
+		},
+		{
+			"name": "Ginataang Tabagwang sa Pako",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Tabagwang is the local term for kuhol (freshwater snails). It is usually done in coconut milk with fern leaves.",
+				"This dish is considered to be exotic because it's supposed to be eaten with bare hands. The snail meat must be slurped straight from its shell."
+			],
+			"pillData": null
+		},
+		{
+			"name": "Steamed Taktakun",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#D49D56",
+			"details": [
+				"Another Caronian specialty is taktakun, a seashell dish prepared with no other than water as its main ingredient. Fresh catch of these shells go straight to the pan after it is cleaned.",
+				"According to locals, the best way to eat taktakun’s meat is to pick it with a fork or a toothpick"
+			],
+			"pillData": null
+		},
+		{
+			"name": "Stir Fried Bagisara",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Bagisara (river clams) is a typically cooked Cataduanon viand cooked in garlic, ginger, and onions. Local says that adding salt to this dish is no longer needed because its juice and meat is tasty enough",
+				"These clams are usually caught in brackish bodies of water in the town of San Miguel"
+			],
+			"pillData": null
+		}, 
+		{
+			"name": "Buttered Burbugat",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Burbugat is a type of clam that has a hard and ragged-edged cover. It has thick red meat inside that, when flavored with garlic, butter, and chili, gives a savory kick"
+			],
+			"pillData": null
+		},
+		{
+			"name": "Steamed Bukawil",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"These sea snails have thick shalles and are often just steamed to make a viand. Forks and toothpicks are needed to fish out its thin meat inside. The meat is then dipped into soy sauce with calamansi"
+			],
+			"pillData": null
+		},
+		{
+			"name": "Steamed Banagan",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"One of the most abundant seafoods in the province are lobsters. It can be an expensive dish in other parts of the country, especially in the metro. But in Catanduanes, it is more affordable because it’s considered as a staple food."
+			],
+			"pillData": null
+		},
+		{
+			"name": "Ginataang Kinis",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"While kinis or mud crabs can already be eaten steamed, a must-try dish is the ginataang kinis. Ensaladang pako goes well with this viand.",
+				"The town of Panganiban, dubbed as the “Crab Capital” of the island, celebrates the Kinis Festival every July"
+			],
+			"pillData": null
+		},
+		{
+			"name": "Rice Brew",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Those who love coffee must try this antioxidant made from roasted rive. It is a healthy alternative to ordinary coffee granules. There’s no caffeine ingredient but it has a strong taste as well."
+			],
+			"pillData": null
+		}, 
+		{
+			"name": "Tilmok",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Tilmok is steamed seafood with coconut meat. Catandungans used buyod (freshwater shrimp) instead of crab meat and add oregano. It’s spicy too."
+			],
+			"pillData": null
+		}  
+	]
+>>>>>>> upstream/main
 }
