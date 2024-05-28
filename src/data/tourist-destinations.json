@@ -4,7 +4,7 @@
 	"data": [
 		{
 			"title": "Puraran Beach",
-			"isHighlight": false,
+			"isHighlight": true,
 			"image": "/images/tourist-destinations/puraran-beach.jpg",
 			"color": "#776A01",
 			"details": [
@@ -54,7 +54,7 @@
 		},
 		{
 			"title": "Bato Church",
-			"isHighlight": false,
+			"isHighlight": true,
 			"image": "/images/tourist-destinations/bato-church.jpg",
 			"color": "#776A01",
 			"details": [
