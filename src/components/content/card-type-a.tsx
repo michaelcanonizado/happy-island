@@ -93,15 +93,15 @@ const CardtypeA = ({
 						</p>
 					</div>
 				</div>
-				<CardHeader className="pt-4 pb-0 px-0">
+				<CardHeader className="pt-8 pb-0 px-0">
 					<CardTitle
-						className={`${bayon.variable} text-foreground font-display tracking-wider text-xl`}
+						className={`${bayon.variable} text-foreground font-display tracking-wider text-xl xs:text-2xl`}
 					>
 						{title}
 					</CardTitle>
 				</CardHeader>
-				<CardContent className="pt-0 px-0">
-					<CardDescription>{description}</CardDescription>
+				<CardContent className="pt-2 px-0">
+					<CardDescription className='text-base md:text-lg'>{description}</CardDescription>
 				</CardContent>
 			</Card>
 		</motion.div>
