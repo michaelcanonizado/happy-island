@@ -134,7 +134,7 @@ const TouristDestinations = async () => {
 				description={data.description}
 			/>
 				<div className="flex flex-col gap-14">
-					{renderFestivalSequence()}
+				{renderFestivalSequence()}
 				</div>
 		</article>
 	);

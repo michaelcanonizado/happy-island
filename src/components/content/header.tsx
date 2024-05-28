@@ -22,13 +22,13 @@ const Header = ({
 		>
 			<div className="">
 				<h1
-					className={`${bayon.variable} font-display text-8xl tracking-widest text-foreground`}
+					className={`${bayon.variable} font-display tracking-widest text-foreground text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl`}
 				>
 					{title}
 				</h1>
 			</div>
 			<div className="">
-				<p className="text-lg">{description}</p>
+				<p className="text-sm sm:text-base md:text-lg">{description}</p>
 			</div>
 		</div>
 	);
