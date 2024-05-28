@@ -56,7 +56,7 @@ const Delicacies = async () => {
 					screenBreakpoints
 				)}
 			>
-				<div className="grid grid-cols-1 pt-[30%] gap-6 md:auto-rows-[800px] lg:auto-rows-[650px] w-full sm:w-1/2">
+				<div className="grid grid-cols-1 pt-[10%] gap-6 md:auto-rows-[800px] lg:auto-rows-[650px] w-full sm:w-1/2">
 					{renderFirstHalfSequence()}
 				</div>
 				<div className="grid grid-cols- gap-6 md:auto-rows-[800px] lg:auto-rows-[650px] w-full sm:w-1/2">
