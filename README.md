@@ -27,7 +27,7 @@ cd rph-website
 
 Intall dependencies
 ```
-npm isntall
+npm install
 ```
 
 Run local development server
