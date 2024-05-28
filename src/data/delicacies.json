@@ -139,6 +139,16 @@
 				"Those who love coffee must try this antioxidant made from roasted rive. It is a healthy alternative to ordinary coffee granules. There’s no caffeine ingredient but it has a strong taste as well."
 			],
 			"pillData": null
-		},          
+		}, 
+		{
+			"name": "Tilmok",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Tilmok is steamed seafood with coconut meat. Catandungans used buyod (freshwater shrimp) instead of crab meat and add oregano. It’s spicy too."
+			],
+			"pillData": null
+		}  
 	]
 }
