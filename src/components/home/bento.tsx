@@ -257,11 +257,11 @@ const BentoGrid = () => {
 				}}
 			>
 				<Link
-					href="/section"
+					href="/delicacies"
 					className="absolute inset-0 flex flex-col justify-center items-center"
 				>
 					<div className="">
-						<p className="">Add Section</p>
+						<p className="">Delicacies</p>
 					</div>
 				</Link>
 			</motion.div>
