@@ -58,7 +58,7 @@ const CardTypeB = ({
 				)}
 			>
 				<div className="bg-transparent h-[200px] relative">
-					<div className="absolute z-10 bottom-[-50%] translate-x-[50%] w-[50%] aspect-square rounded-md overflow-hidden">
+					<div className="absolute z-10 bottom-[-50%] aspect-square rounded-md overflow-hidden translate-x-[20%] xs:translate-x-[50%] w-[75%] xs:w-[50%]">
 						<Image
 							src={imagePath}
 							alt={title}
@@ -76,15 +76,15 @@ const CardTypeB = ({
 						borderColor: color,
 					}}
 				>
-					<CardHeader className="pt-4 pb-2 px-0">
+					<CardHeader className="pt-8 pb-2 px-0">
 						<CardTitle
-							className={`${bayon.variable} text-foreground font-display tracking-widest text-2xl`}
+							className={`${bayon.variable} text-foreground font-display tracking-widest text-2xl sm:text-3xl md:text-4xl`}
 						>
 							{title}
 						</CardTitle>
 					</CardHeader>
 					<CardContent className="pt-0 px-0 ">
-						<CardDescription className="text-lg">
+						<CardDescription className="text-base md:text-lg">
 							{description}
 						</CardDescription>
 					</CardContent>
