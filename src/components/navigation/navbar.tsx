@@ -17,31 +17,46 @@ const Navbar = () => {
 		>
 			<nav
 				className={cn(
-					'mx-auto px-4 py-2 flex justify-between items-center',
+					'mx-auto pr-4 pl-6 py-2 flex justify-between items-center',
 					screenBreakpoints
 				)}
 			>
-				<Link href="/" className="flex items-center">
+				<Link href="/" className="flex items-center gap-1">
 					<TreePalm className="mt-[-5px]" />
-					<span className="text-2xl font-semibold">Happy Island</span>
+					<span className="
+					text-xl md:text-2xl 
+					font-semibold
+					">Happy Island</span>
 				</Link>
 
-				<div className="flex gap-4 ml-4 text-base">
+				<div className={`gap-4 ml-4 text-base hidden sm:flex`}>
 					<Link
 						href="/"
-						className="hover:bg-background-200 transition-colors ease-linear rounded-md px-4"
+						className="
+						transition-colors ease-linear rounded-md px-4
+						
+						hover:bg-background-200
+						"
 					>
 						About
 					</Link>
 					<Link
 						href="/"
-						className="hover:bg-background-200 transition-colors ease-linear rounded-md px-4"
+						className="
+						transition-colors ease-linear rounded-md px-4
+						
+						hover:bg-background-200
+						"
 					>
 						Details
 					</Link>
 					<Link
 						href="/"
-						className="hover:bg-background-200 transition-colors ease-linear rounded-md px-4"
+						className="
+						transition-colors ease-linear rounded-md px-4
+						 
+						hover:bg-background-200
+						"
 					>
 						Where to Go
 					</Link>
@@ -51,13 +66,17 @@ const Navbar = () => {
 					<a
 						href="https://github.com/michaelcanonizado/rph-website"
 						target="_blank"
-						className="hover:bg-foreground hover:text-background transition-colors ease-linear rounded-md px-4 border-2 border-foreground flex items-center gap-1"
-						// className="hover:bg-background-200 hover:border-background-200 transition-colors ease-linear rounded-md px-4 border-2 border-foreground"
+						className="
+						transition-colors ease-linear rounded-md  border-2 border-foreground flex items-center gap-1 
+
+						hover:bg-foreground hover:text-background
+						
+						px-2 md:px-4"
 					>
 						<span className="mt-[-3px]">
 							<Github className="w-[18px] h-[18px]" />
 						</span>
-						<span className="">Github</span>
+						<span className="text-base md:text-xl">Github</span>
 					</a>
 				</div>
 			</nav>
