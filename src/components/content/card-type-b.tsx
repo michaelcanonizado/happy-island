@@ -17,11 +17,13 @@ const CardTypeB = ({
 	imagePath,
 	title,
 	description,
+	color,
 }: {
 	className?: string;
 	imagePath: string;
 	title: string;
 	description: string[];
+	color: string;
 }) => {
 	return (
 		<Card
@@ -43,7 +45,12 @@ const CardTypeB = ({
 					/>
 				</div>
 			</div>
-			<div className="py-4 px-12 pt-24 bg-background-100 rounded-xl overflow-hidden shadow border-b-[20px] border-x-0 border-t-0 border-yellow-primary grow">
+			<div
+				className="py-4 px-12 pt-24 bg-background-100 rounded-xl overflow-hidden shadow border-b-[20px] border-x-0 border-t-0 grow"
+				style={{
+					borderColor: color,
+				}}
+			>
 				<CardHeader className="pt-4 pb-2 px-0">
 					<CardTitle
 						className={`${bayon.variable} text-foreground font-display tracking-widest text-2xl`}

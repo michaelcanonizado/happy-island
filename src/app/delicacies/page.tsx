@@ -20,6 +20,7 @@ const Delicacies = async () => {
 					imagePath="/images/delicacies/dawa.png"
 					title={data.data.regulars[currentIndex].title}
 					description={data.data.regulars[currentIndex].details}
+					color={data.data.regulars[currentIndex].color}
 				/>
 			);
 			currentIndex++;
@@ -34,6 +35,7 @@ const Delicacies = async () => {
 					imagePath="/images/delicacies/dawa.png"
 					title={data.data.regulars[currentIndex].title}
 					description={data.data.regulars[currentIndex].details}
+					color={data.data.regulars[currentIndex].color}
 				/>
 			);
 			currentIndex++;
