@@ -57,26 +57,29 @@ const CardTypeB = ({
 				className
 				)}
 			>
-				<div className="bg-transparent h-[200px] relative">
-					<div className="absolute z-10 bottom-[-50%] aspect-square rounded-md overflow-hidden translate-x-[20%] xs:translate-x-[50%] w-[75%] xs:w-[50%]">
-						<Image
-							src={imagePath}
-							alt={title}
-							fill
-							style={{
-								objectFit: 'cover',
-								objectPosition: 'center',
-							}}
-						/>
-					</div>
-				</div>
 				<div
-					className="py-4 px-12 pt-24 bg-background-100 rounded-xl overflow-hidden shadow border-b-[20px] border-x-0 border-t-0 grow"
+					className="mt-20 xs:mt-24 sm:mt-32 py-4 px-12 bg-background-100 rounded-xl shadow border-b-[20px] border-x-0 border-t-0 grow flex flex-col items-center"
 					style={{
 						borderColor: color,
 					}}
 				>
-					<CardHeader className="pt-8 pb-2 px-0">
+					<div className='relative h-[5px] w-[5px]'>
+						<div className="absolute z-10 aspect-square rounded-md overflow-hidden top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
+						
+						w-[150px] xs:w-[175px] sm:w-[200px]">
+							<Image
+								src={imagePath}
+								alt={title}
+								fill
+								style={{
+									objectFit: 'cover',
+									objectPosition: 'center',
+								}}
+							/>
+						</div>
+					</div>
+					
+					<CardHeader className="w-full pt-32 pb-2 px-0">
 						<CardTitle
 							className={`${bayon.variable} text-foreground font-display tracking-widest text-2xl sm:text-3xl md:text-4xl`}
 						>
