@@ -88,6 +88,16 @@
 				"These clams are usually caught in brackish bodies of water in the town of San Miguel"
 			],
 			"pillData": null
-		},                       
+		}, 
+		{
+			"name": "Buttered Burbugat",
+			"isHighlight": false,
+			"images": "/delicacies/latik.jpg",
+			"color": "#715C58",
+			"details": [
+				"Burbugat is a type of clam that has a hard and ragged-edged cover. It has thick red meat inside that, when flavored with garlic, butter, and chili, gives a savory kick"
+			],
+			"pillData": null
+		},                     
 	]
 }
