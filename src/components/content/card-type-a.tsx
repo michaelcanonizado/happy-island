@@ -48,6 +48,7 @@ const CardtypeA = ({
 			variants={cardVariants}
 			initial="hidden"
 			whileInView="visible"
+			viewport={{ once: true }}
 			transition={{
 				type: 'spring',
 				ease: 'linear',
