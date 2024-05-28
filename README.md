@@ -1,6 +1,6 @@
-# RPH Website
+# Happy Island
 
-Temporary project name
+...
 
 ## Technologies
 - [ReactJS](https://react.dev/)
