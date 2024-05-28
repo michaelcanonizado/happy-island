@@ -82,7 +82,7 @@ const HeroOverlay = () => {
 			</div>
 			<div className="">
 				<h1
-					className={`font-bold ${bayon.variable} font-display tracking-widest text-6xl sm:text-7xl md:text-8xl`}
+					className={`font-bold ${bayon.variable} font-display tracking-widest text-4xl xs:text-5xl sm:text-7xl md:text-8xl`}
 				>
 					CATANDUANES
 				</h1>

@@ -29,7 +29,7 @@ const Details = () => {
 		<div className={cn('mx-auto mt-[150px] w-full px-4', screenBreakpoints)}>
 			<section className="grid lg:grid-cols-2 gap-10">
 				<DetailsTextGroup />
-				<div className="px-12">
+				<div className="px-8 sm:px-12 flex justify-center">
 					<DetailsImageCarousel/>
 				</div>
 			</section>
@@ -48,7 +48,7 @@ const bentoGridVariants = {
 
 const DetailsTextGroup = () => {
 	return (
-		<div className="px-12 lg:px-0">
+		<div className="pl-0 pr-4 md:px-12 lg:px-0">
 			<motion.div
 				className="mb-6 ml-[58px]"
 				variants={bentoGridVariants}
@@ -87,7 +87,7 @@ const DetailsText = ({ text, iconPath }: { text: string; iconPath: string }) => 
 			initial="hidden"
 			whileInView="visible"
 		>
-			<div className="relative min-w-[50px] flex justify-center items-center whitespace-nowrap">
+			<div className="relative flex justify-center items-center whitespace-nowrap min-w-[35px] xs:min-w-[40px] sm:min-w-[50px]">
 				<Image src={iconPath} width={40} height={40} alt="Icon" />
 			</div>
 			<div className="shrink min-h-fit">
@@ -99,7 +99,7 @@ const DetailsText = ({ text, iconPath }: { text: string; iconPath: string }) => 
 
 const DetailsImageCarousel = ()=> {
 	return (
-	<Carousel className="w-full">
+	<Carousel className="w-[80%]">
 		<CarouselContent>
 			{imagePaths.map((path, index) => (
 				<CarouselItem className="" key={index}>
