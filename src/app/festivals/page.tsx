@@ -7,13 +7,10 @@ import CardtypeA from '@/components/content/card-type-a';
 import CardHighlight from '@/components/content/card-highlight';
 import Header from '@/components/content/header';
 
-import { getData } from '@/lib/get-data';
-import { DataTypes } from '@/types';
+import { getFestivalsData } from '@/lib/get-festivals-data';
 
 const Festivals = async () => {
-	const data = await getData(DataTypes.festivals);
-
-	console.log(data);
+	const data = await getFestivalsData();
 
 	const renderFestivalSequence = () => {
 		const postsSequence = [];
