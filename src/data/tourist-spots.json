@@ -3,7 +3,7 @@
 	"description": "Catanduanes, often referred to as the \"Happy Island\", is a tropical paradise in the Philippines known for its stunning landscapes, pristine beaches, and warm hospitality. In earlier times, the province was called the \"Land of the Howling Winds\". Situated off the coast of the Bicol Region and facing the Pacific Ocean, which is a common path for typhoons, hence the historical name.",
 	"data": [
 		{
-			"name": "Puraran Beach",
+			"title": "Puraran Beach",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/puraran-beach.jpg",
 			"color": "#776A01",
@@ -13,7 +13,7 @@
 			"pillData": "Baras, Catanduanes"
 		},
 		{
-			"name": "Binurong Point",
+			"title": "Binurong Point",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/binurong-point.jpg",
 			"color": "#776A01",
@@ -23,7 +23,7 @@
 			"pillData": "Baras, Catanduanes"
 		},
 		{
-			"name": "Maribina Falls",
+			"title": "Maribina Falls",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/maribina-falls.jpg",
 			"color": "#776A01",
@@ -33,7 +33,7 @@
 			"pillData": "Bato, Catanduanes"
 		},
 		{
-			"name": "Mamangal Beach Resort",
+			"title": "Mamangal Beach Resort",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/mamangal.jpg",
 			"color": "#776A01",
@@ -43,7 +43,7 @@
 			"pillData": "Virac, Catanduanes"
 		},
 		{
-			"name": "Luyang Cave Park",
+			"title": "Luyang Cave Park",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/luyang-cave.jpg",
 			"color": "#776A01",
@@ -53,7 +53,7 @@
 			"pillData": "San Andres, Catanduanes"
 		},
 		{
-			"name": "Bato Church",
+			"title": "Bato Church",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/bato-church.jpg",
 			"color": "#776A01",
@@ -63,7 +63,7 @@
 			"pillData": "Bato, Catanduanes"
 		},
 		{
-			"name": "Cagnipa Rolling Hills",
+			"title": "Cagnipa Rolling Hills",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/cagnipa.jpg",
 			"color": "#776A01",
@@ -73,7 +73,7 @@
 			"pillData": "Pandan, Catanduanes"
 		},
 		{
-			"name": "Poseidon Rock Formation",
+			"title": "Poseidon Rock Formation",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/poseidon.jpg",
 			"color": "#776A01",
@@ -83,7 +83,7 @@
 			"pillData": "Bato, Catanduanes"
 		},
 		{
-			"name": "Bontahiya Falls",
+			"title": "Bontahiya Falls",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/bontahiya.jpg",
 			"color": "#776A01",
@@ -93,7 +93,7 @@
 			"pillData": "San Miguel, Catanduanes"
 		},
 		{
-			"name": "Tuwad-Tuwadan Blue Lagoon",
+			"title": "Tuwad-Tuwadan Blue Lagoon",
 			"isHighlight": false,
 			"image": "/images/tourist-destinations/blue-lagoon.jpg",
 			"color": "#776A01",
