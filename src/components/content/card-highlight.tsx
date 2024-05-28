@@ -35,7 +35,7 @@ const CardHighlight = ({
 				screenBreakpoints + ' ' + className
 			)}
 		>
-			<Card className="relative w-full min-h-[500px] rounded-none xl:rounded-xl overflow-hidden border-none">
+			<Card className="relative w-full min-h-[550px] rounded-none xl:rounded-xl overflow-hidden border-none">
 				<Image
 					src={imagePath}
 					alt={title}
@@ -74,6 +74,7 @@ const CardHighlight = ({
 						</p>
 					</div>
 				</div>
+				
 			</Card>
 		</section>
 	);
