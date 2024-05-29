@@ -27,7 +27,7 @@ const CardStory = ({
             title={title} 
             body={body}
             align={align}/>
-            <div className="absolute inset-0 bg-red-500">
+            <div className="absolute inset-0">
                 <Image 
                 src={titleImage} 
                 fill
@@ -43,7 +43,7 @@ const CardStory = ({
             <CardStoryBodyOverlay 
             className="absolute bottom-0 z-10 text-background-100" 
             body={body} align={align}/>
-            <div className="absolute inset-0 bg-red-500">
+            <div className="absolute inset-0">
                 <Image 
                 src={bodyImage} 
                 fill
