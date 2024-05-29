@@ -129,7 +129,7 @@ const TouristDestinations = async () => {
 	return (
 		<article className="bg-background-200 pb-[500px]">
 			<Header
-				className="mb-14"
+				className="mb-14 mt-20"
 				title={data.title}
 				description={data.description}
 			/>
