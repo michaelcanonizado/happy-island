@@ -16,7 +16,7 @@ const Header = ({
 	return (
 		<div
 			className={cn(
-				`mx-auto w-full px-4 text-center flex flex-col justify-center mt-20`,
+				`mx-auto w-full px-4 text-center flex flex-col justify-center`,
 				screenBreakpoints + ' ' + className
 			)}
 		>

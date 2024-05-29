@@ -23,19 +23,35 @@ const Folktales = async () => {
 
 	return (
 		<article className="bg-background-200 pb-[500px]">
+			<div className={cn("pt-20 mx-auto h-fit w-full bg-background-100", screenBreakpoints)}>
+
 			<Header
 				className="mb-14"
 				title="Folktales"
 				description="
 				Cras imperdiet semper aliquam. Proin feugiat nulla non tempus faucibus. Morbi quis tincidunt libero. Nam sed finibus ligula. Pellentesque habitant morbi tristique s enectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Nullam imperdiet nunc at risus sagittis pulvinar. Suspendisse potenti."
 			/>
-			<div className={cn("flex flex-col gap-14 w-full mx-auto lg:px-4", screenBreakpoints)}>
+			<div className={cn("flex flex-col")}>
 				<CardStory 
 					title={data.title}
 					body={data.body}
 					titleImage={data.titleImage}
 					bodyImage={data.bodyImage}
 				/>
+				<CardStory 
+					title={data.title}
+					body={data.body}
+					titleImage={data.titleImage}
+					bodyImage={data.bodyImage}
+				/>
+				<CardStory 
+					title={data.title}
+					body={data.body}
+					titleImage={data.titleImage}
+					bodyImage={data.bodyImage}
+				/>
+			</div>
+
 			</div>
 		</article>
 	);
