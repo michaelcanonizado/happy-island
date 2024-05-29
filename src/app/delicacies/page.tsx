@@ -17,7 +17,7 @@ const Delicacies = async () => {
 		for (let i = currentIndex; i < data.data.regulars.length / 2; i++) {
 			sequence.push(
 				<CardTypeB
-					imagePath="/images/delicacies/dawa.png"
+					imagePath={data.data.regulars[currentIndex].image}
 					title={data.data.regulars[currentIndex].title}
 					description={data.data.regulars[currentIndex].details}
 					color={data.data.regulars[currentIndex].color}
@@ -32,7 +32,7 @@ const Delicacies = async () => {
 		for (let i = currentIndex; i < data.data.regulars.length; i++) {
 			sequence.push(
 				<CardTypeB
-					imagePath="/images/delicacies/dawa.png"
+					imagePath={data.data.regulars[currentIndex].image}
 					title={data.data.regulars[currentIndex].title}
 					description={data.data.regulars[currentIndex].details}
 					color={data.data.regulars[currentIndex].color}
