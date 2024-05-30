@@ -58,8 +58,7 @@ const Folktales = async () => {
 			<Header
 				className="mb-14"
 				title="Folktales"
-				description="
-				Cras imperdiet semper aliquam. Proin feugiat nulla non tempus faucibus. Morbi quis tincidunt libero. Nam sed finibus ligula. Pellentesque habitant morbi tristique s enectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Nullam imperdiet nunc at risus sagittis pulvinar. Suspendisse potenti."
+				description="Catanduanes has a rich collection of folklore and legends that have been passed down through generations. These stories often feature mythical creatures, enchanted places, and heroic figures."
 			/>
 			<div className={cn("flex flex-col")}>
 				<CardStory 
